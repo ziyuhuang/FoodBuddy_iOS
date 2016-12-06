@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0332ACD753E353CD6978B8FA /* Pods_MapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1257105F525CD80E52520B91 /* Pods_MapDemo.framework */; };
 		4431EE4A1DF34B9B00558D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE491DF34B9B00558D1B /* AppDelegate.swift */; };
 		4431EE4C1DF34B9B00558D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE4B1DF34B9B00558D1B /* ViewController.swift */; };
 		4431EE4F1DF34B9B00558D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE4D1DF34B9B00558D1B /* Main.storyboard */; };
@@ -14,7 +15,11 @@
 		4431EE541DF34B9B00558D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE521DF34B9B00558D1B /* LaunchScreen.storyboard */; };
 		4431EE5F1DF34B9B00558D1B /* MapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE5E1DF34B9B00558D1B /* MapDemoTests.swift */; };
 		4431EE6A1DF34B9B00558D1B /* MapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE691DF34B9B00558D1B /* MapDemoUITests.swift */; };
-		4431EE781DF34DAC00558D1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE771DF34DAC00558D1B /* Podfile */; };
+		4431EE7A1DF358E000558D1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE791DF358E000558D1B /* Podfile */; };
+		4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE7B1DF388C600558D1B /* ZomatoClient.swift */; };
+		4456F1E61DF5F01B001EC08E /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */; };
+		4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456F1E71DF6687C001EC08E /* EventModel.swift */; };
+		446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1257105F525CD80E52520B91 /* Pods_MapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431EE461DF34B9B00558D1B /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431EE491DF34B9B00558D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4431EE4B1DF34B9B00558D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +54,13 @@
 		4431EE651DF34B9B00558D1B /* MapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431EE691DF34B9B00558D1B /* MapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemoUITests.swift; sourceTree = "<group>"; };
 		4431EE6B1DF34B9B00558D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4431EE771DF34DAC00558D1B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4431EE791DF358E000558D1B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4431EE7B1DF388C600558D1B /* ZomatoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomatoClient.swift; sourceTree = "<group>"; };
+		4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		4456F1E71DF6687C001EC08E /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		D0962D9B199913E9A3BB58E3 /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FAFDE04D8CC7AE82F6DB70B5 /* Pods-MapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0332ACD753E353CD6978B8FA /* Pods_MapDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +92,13 @@
 		4431EE3D1DF34B9A00558D1B = {
 			isa = PBXGroup;
 			children = (
+				4431EE791DF358E000558D1B /* Podfile */,
 				4431EE481DF34B9B00558D1B /* MapDemo */,
 				4431EE5D1DF34B9B00558D1B /* MapDemoTests */,
 				4431EE681DF34B9B00558D1B /* MapDemoUITests */,
 				4431EE471DF34B9B00558D1B /* Products */,
+				99A916EEA4CFBF3770879AC4 /* Pods */,
+				741F2E2331C4A553604B3329 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +121,10 @@
 				4431EE501DF34B9B00558D1B /* Assets.xcassets */,
 				4431EE521DF34B9B00558D1B /* LaunchScreen.storyboard */,
 				4431EE551DF34B9B00558D1B /* Info.plist */,
-				4431EE771DF34DAC00558D1B /* Podfile */,
+				4431EE7B1DF388C600558D1B /* ZomatoClient.swift */,
+				4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */,
+				4456F1E71DF6687C001EC08E /* EventModel.swift */,
+				446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -128,6 +147,23 @@
 			path = MapDemoUITests;
 			sourceTree = "<group>";
 		};
+		741F2E2331C4A553604B3329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1257105F525CD80E52520B91 /* Pods_MapDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99A916EEA4CFBF3770879AC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDE04D8CC7AE82F6DB70B5 /* Pods-MapDemo.debug.xcconfig */,
+				D0962D9B199913E9A3BB58E3 /* Pods-MapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4431EE6E1DF34B9B00558D1B /* Build configuration list for PBXNativeTarget "MapDemo" */;
 			buildPhases = (
+				1D7DEC24F51FA475D46AABC6 /* [CP] Check Pods Manifest.lock */,
 				4431EE421DF34B9A00558D1B /* Sources */,
 				4431EE431DF34B9A00558D1B /* Frameworks */,
 				4431EE441DF34B9A00558D1B /* Resources */,
+				C0898DFE396E7BEB94416411 /* [CP] Embed Pods Frameworks */,
+				730011B2A067E6DC0F265DC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +276,7 @@
 			files = (
 				4431EE541DF34B9B00558D1B /* LaunchScreen.storyboard in Resources */,
 				4431EE511DF34B9B00558D1B /* Assets.xcassets in Resources */,
-				4431EE781DF34DAC00558D1B /* Podfile in Resources */,
+				4431EE7A1DF358E000558D1B /* Podfile in Resources */,
 				4431EE4F1DF34B9B00558D1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,12 +297,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D7DEC24F51FA475D46AABC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		730011B2A067E6DC0F265DC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0898DFE396E7BEB94416411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4431EE421DF34B9A00558D1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4431EE4C1DF34B9B00558D1B /* ViewController.swift in Sources */,
+				4456F1E61DF5F01B001EC08E /* RestaurantViewController.swift in Sources */,
+				4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */,
+				4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */,
+				446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */,
 				4431EE4A1DF34B9B00558D1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +505,13 @@
 		};
 		4431EE6F1DF34B9B00558D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFDE04D8CC7AE82F6DB70B5 /* Pods-MapDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = sjsu.ziyuhuang.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -427,11 +520,13 @@
 		};
 		4431EE701DF34B9B00558D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0962D9B199913E9A3BB58E3 /* Pods-MapDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = sjsu.ziyuhuang.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -511,6 +606,7 @@
 				4431EE701DF34B9B00558D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4431EE711DF34B9B00558D1B /* Build configuration list for PBXNativeTarget "MapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +615,7 @@
 				4431EE731DF34B9B00558D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4431EE741DF34B9B00558D1B /* Build configuration list for PBXNativeTarget "MapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +624,7 @@
 				4431EE761DF34B9B00558D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
