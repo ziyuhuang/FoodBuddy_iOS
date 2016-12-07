@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import YelpAPI
 import BDBOAuth1Manager
 import AFNetworking
 import Alamofire

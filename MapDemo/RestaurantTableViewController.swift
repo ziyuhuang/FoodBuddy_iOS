@@ -10,7 +10,6 @@ import UIKit
 import Alamofire
 import OAuthSwift
 import p2_OAuth2
-import YelpAPI
 //
 //struct RestaurantCell{
 //    var restaurantImageView: UIImageView!

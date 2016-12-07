@@ -29,10 +29,10 @@ class GoogleViewController: UIViewController {
         marker.snippet = "SJSU"
         marker.map = mapView
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title:"next",
-                                                            style: UIBarButtonItemStyle.plain,
-                                                            target: self,
-                                                            action:#selector(ViewController.next as (ViewController) -> () -> ()))
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(title:"next",
+//                                                            style: UIBarButtonItemStyle.plain,
+//                                                            target: self,
+//                                                            action:#selector(ViewController.next as (ViewController) -> () -> ()))
     
         
     }

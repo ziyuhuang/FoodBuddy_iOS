@@ -9,6 +9,9 @@ pod 'BDBOAuth1Manager'
 pod 'Alamofire', '~> 4.0'
 pod 'OAuthSwift', '~> 1.1.0'
 pod 'p2.OAuth2', '~> 3.0'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 end
 
 
