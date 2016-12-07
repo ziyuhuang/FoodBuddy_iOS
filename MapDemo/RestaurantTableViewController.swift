@@ -1,89 +1,110 @@
 //
-//  RestaurantTableViewController.swift
+//  RestaurantViewController.swift
 //  MapDemo
 //
-//  Created by ZIYU HUANG on 12/6/16.
+//  Created by ZIYU HUANG on 12/5/16.
 //  Copyright © 2016 ZIYU HUANG. All rights reserved.
 //
 
 import UIKit
+import Alamofire
+import OAuthSwift
+import p2_OAuth2
+import YelpAPI
+//
+//struct RestaurantCell{
+//    var restaurantImageView: UIImageView!
+//    var restaurantName: UILabel!
+//    var restaurantAddress: UILabel!
+//}
 
-class RestaurantTableViewController: UITableViewController {
-
+class RestaurantTableViewController: UITableViewController{
+    
+    let myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=10883&entity_type=city&radius=1000"
+    
+    let clientKey = "8ca8132ea2011f2b1b5bcd0822a31984"
+    
+    typealias JSONStanard = [String:AnyObject]
+    
+    let zomatoClient = ZomatoClient()
+    
+    var resModels = [RestaurantMode]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        fetchData( )
     }
-
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return resModels.count
     }
-
-    /*
+//
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let restaurantImageView = cell.viewWithTag(1) as! UIImageView
+        let restaurantName = cell.viewWithTag(2) as! UILabel
+        let restaurantAddress = cell.viewWithTag(3) as! UILabel
+        let createBtn = cell.viewWithTag(4) as! UIButton
+        
+        restaurantImageView.image = resModels[indexPath.row].image
+        restaurantName.text = resModels[indexPath.row].restaurantName
+        restaurantAddress.text = resModels[indexPath.row].location
         return cell
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+//
+//    
+    func fetchData(){
+        
+        
+        let url = URL(string: myUrl)
+        var urlRequest = URLRequest(url: url!)
+        
+        urlRequest.setValue(clientKey, forHTTPHeaderField: "user-key")
+        
+        
+        Alamofire.request(urlRequest).responseJSON(completionHandler: {
+            response in
+            
+            do{
+                var readableData = try JSONSerialization.jsonObject(with: response.data!, options: .mutableContainers) as! JSONStanard
+                //                print(readableData)
+                if let restaurants = readableData["restaurants"] as? [JSONStanard]{
+                    for res in restaurants{
+                        let myRes = res["restaurant"] as! JSONStanard
+                        print(myRes["name"]!)
+                        let resName = myRes["name"] as? String
+                        
+                        var location = String()
+                        var longitude = String()
+                        var latitude = String()
+                        var image = UIImage()
+                        
+                        if let locations = myRes["location"] as? JSONStanard{
+                            location = locations["city"] as! String
+                            longitude = locations["longitude"] as! String
+                            latitude = locations["latitude"] as! String
+                            //                            print(location)
+                        }
+                        
+                        //get image
+                        let featuredImageUrl = myRes["featured_image"] as! String
+                        let imageUrl = NSURL(string: featuredImageUrl) as! URL
+                        if let imageData = NSData(contentsOf: imageUrl) as? Data{
+                            image = UIImage(data: imageData)!
+                        }
+                        
+                        let resModel = RestaurantMode(restaurantName: resName, location: location, longtitude: longitude, latitude: latitude, image:image)
+                        self.resModels.append(resModel)
+                        self.tableView.reloadData()
+                        
+                    }
+                }
+                
+            }
+            catch{
+                print(error)
+            }
+        })
+        
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

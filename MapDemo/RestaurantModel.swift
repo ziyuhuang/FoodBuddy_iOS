@@ -7,17 +7,19 @@
 //
 
 import Foundation
+import UIKit
 class RestaurantMode: NSObject {
     var restaurantName:String!
     var location:String!
     var longtitude:String!
     var latitude:String!
+    var image:UIImage?
 //    var restaurantID:Int!
     
     
-    required init(restaurantName:String!, location:String!, longtitude:String!, latitude:String!){
+    required init(restaurantName:String!, location:String!, longtitude:String!, latitude:String!, image:UIImage?){
         self.restaurantName = restaurantName
-//        self.restaurantID = restaurantID
+        self.image = image
         self.location = location
         self.longtitude = longtitude
         self.latitude = latitude

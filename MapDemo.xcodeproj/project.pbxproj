@@ -17,9 +17,9 @@
 		4431EE6A1DF34B9B00558D1B /* MapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE691DF34B9B00558D1B /* MapDemoUITests.swift */; };
 		4431EE7A1DF358E000558D1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE791DF358E000558D1B /* Podfile */; };
 		4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE7B1DF388C600558D1B /* ZomatoClient.swift */; };
-		4456F1E61DF5F01B001EC08E /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */; };
 		4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456F1E71DF6687C001EC08E /* EventModel.swift */; };
 		446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */; };
+		446F3DB21DF786DB004893B4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DB11DF786DB004893B4 /* RestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		4431EE6B1DF34B9B00558D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4431EE791DF358E000558D1B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4431EE7B1DF388C600558D1B /* ZomatoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomatoClient.swift; sourceTree = "<group>"; };
-		4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		4456F1E71DF6687C001EC08E /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		446F3DB11DF786DB004893B4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		D0962D9B199913E9A3BB58E3 /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FAFDE04D8CC7AE82F6DB70B5 /* Pods-MapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,9 +122,9 @@
 				4431EE521DF34B9B00558D1B /* LaunchScreen.storyboard */,
 				4431EE551DF34B9B00558D1B /* Info.plist */,
 				4431EE7B1DF388C600558D1B /* ZomatoClient.swift */,
-				4456F1E51DF5F01B001EC08E /* RestaurantViewController.swift */,
 				4456F1E71DF6687C001EC08E /* EventModel.swift */,
 				446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */,
+				446F3DB11DF786DB004893B4 /* RestaurantTableViewController.swift */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -351,7 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4431EE4C1DF34B9B00558D1B /* ViewController.swift in Sources */,
-				4456F1E61DF5F01B001EC08E /* RestaurantViewController.swift in Sources */,
+				446F3DB21DF786DB004893B4 /* RestaurantTableViewController.swift in Sources */,
 				4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */,
 				4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */,
 				446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */,
