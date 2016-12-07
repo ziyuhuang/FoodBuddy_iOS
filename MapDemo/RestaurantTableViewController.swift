@@ -60,7 +60,6 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
         let restaurantImageView = cell.viewWithTag(1) as! UIImageView
         let restaurantName = cell.viewWithTag(2) as! UILabel
         let restaurantAddress = cell.viewWithTag(3) as! UILabel
-        let createBtn = cell.viewWithTag(4) as! UIButton
         
         restaurantImageView.image = resModels[indexPath.row].image
         restaurantName.text = resModels[indexPath.row].restaurantName
@@ -162,5 +161,12 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
             }
         })
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let indexPath = self.tableView.indexPathForSelectedRow?.row
+        let vc = segue.destination as! EventViewController
+        vc.restaurantName = resModels[indexPath!].restaurantName
+        vc.restaurantLocation = resModels[indexPath!].location
     }
 }

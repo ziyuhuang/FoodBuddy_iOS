@@ -24,6 +24,7 @@
 		446F3DB61DF7DB93004893B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 446F3DB51DF7DB93004893B4 /* GoogleService-Info.plist */; };
 		446F3DB91DF7DCA9004893B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DB71DF7DCA9004893B4 /* ViewController.swift */; };
 		446F3DBA1DF7DCA9004893B4 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DB81DF7DCA9004893B4 /* welcomeViewController.swift */; };
+		446F3DBC1DF7F402004893B4 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DBB1DF7F402004893B4 /* EventDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		446F3DB51DF7DB93004893B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		446F3DB71DF7DCA9004893B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		446F3DB81DF7DCA9004893B4 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		446F3DBB1DF7F402004893B4 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		D0962D9B199913E9A3BB58E3 /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FAFDE04D8CC7AE82F6DB70B5 /* Pods-MapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */,
 				446F3DB11DF786DB004893B4 /* RestaurantTableViewController.swift */,
 				446F3DB31DF7DAC8004893B4 /* EventViewController.swift */,
+				446F3DBB1DF7F402004893B4 /* EventDetailViewController.swift */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				446F3DBA1DF7DCA9004893B4 /* welcomeViewController.swift in Sources */,
 				4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */,
 				4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */,
+				446F3DBC1DF7F402004893B4 /* EventDetailViewController.swift in Sources */,
 				446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */,
 				446F3DB91DF7DCA9004893B4 /* ViewController.swift in Sources */,
 				4431EE4A1DF34B9B00558D1B /* AppDelegate.swift in Sources */,
