@@ -18,9 +18,15 @@ import YelpAPI
 //    var restaurantAddress: UILabel!
 //}
 
-class RestaurantTableViewController: UITableViewController{
+class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
-    let myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=10883&entity_type=city&radius=1000"
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    var locationID:Int?
+    
+    var myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=278&entity_type=city&radius=1000"
+//    var myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=278&entity_type=city&radius=1000"
+
     
     let clientKey = "8ca8132ea2011f2b1b5bcd0822a31984"
     
@@ -29,6 +35,17 @@ class RestaurantTableViewController: UITableViewController{
     let zomatoClient = ZomatoClient()
     
     var resModels = [RestaurantMode]()
+    
+    //searchbar
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        let keyword = searchBar.text!
+        let finalKeyword = keyword.replacingOccurrences(of: " ", with: "%20")
+        fetchLocationID(text: finalKeyword)
+//        print(myUrl)
+        
+    }
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,14 +70,54 @@ class RestaurantTableViewController: UITableViewController{
     }
 //
 //    
-    func fetchData(){
+    
+    func fetchLocationID(text:String) {
         
+        
+//        let keyword = searchBar.text
+//        let finalKeyword = keyword?.replacingOccurrences(of: " ", with: "%20")
+        let locationUrl = "https://developers.zomato.com/api/v2.1/locations?query=\(text)&count=1"
+        
+        let url = URL(string: locationUrl)
+        var urlRequest = URLRequest(url: url!)
+        urlRequest.setValue(clientKey, forHTTPHeaderField: "user-key")
+        Alamofire.request(urlRequest).responseJSON(completionHandler: {
+            response in
+            do{
+                var readableData = try JSONSerialization.jsonObject(with: response.data!, options: .mutableContainers) as! JSONStanard
+                if let suggestedLocation = readableData["location_suggestions"] as? [JSONStanard]{
+//                    print(suggestedLocation)
+                    let location = suggestedLocation[0];
+                    self.locationID = location["city_id"] as? Int
+                    print(self.locationID!)
+                    
+                    self.myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=\(self.locationID!)&entity_type=city&radius=1000"
+                    self.resModels = [RestaurantMode]()
+                    self.fetchData()
+                    print(self.myUrl)
+                }
+            }
+            catch{
+                print(error)
+            }
+        })
+        
+        
+        
+//        return locationID!
+    }
+//    
+//    func replaceSpaceInKeyword(keyword:String) -> String {
+//        let newString = keyword.replacingOccurrences(of: " ", with: "%20")
+//        return newString
+//    }
+    
+    func fetchData(){
         
         let url = URL(string: myUrl)
         var urlRequest = URLRequest(url: url!)
         
         urlRequest.setValue(clientKey, forHTTPHeaderField: "user-key")
-        
         
         Alamofire.request(urlRequest).responseJSON(completionHandler: {
             response in
@@ -74,13 +131,13 @@ class RestaurantTableViewController: UITableViewController{
                         print(myRes["name"]!)
                         let resName = myRes["name"] as? String
                         
-                        var location = String()
+                        var address = String()
                         var longitude = String()
                         var latitude = String()
                         var image = UIImage()
                         
                         if let locations = myRes["location"] as? JSONStanard{
-                            location = locations["city"] as! String
+                            address = locations["address"] as! String
                             longitude = locations["longitude"] as! String
                             latitude = locations["latitude"] as! String
                             //                            print(location)
@@ -93,7 +150,7 @@ class RestaurantTableViewController: UITableViewController{
                             image = UIImage(data: imageData)!
                         }
                         
-                        let resModel = RestaurantMode(restaurantName: resName, location: location, longtitude: longitude, latitude: latitude, image:image)
+                        let resModel = RestaurantMode(restaurantName: resName, location: address, longtitude: longitude, latitude: latitude, image:image)
                         self.resModels.append(resModel)
                         self.tableView.reloadData()
                         
