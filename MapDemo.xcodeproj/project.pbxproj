@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0332ACD753E353CD6978B8FA /* Pods_MapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1257105F525CD80E52520B91 /* Pods_MapDemo.framework */; };
 		4431EE4A1DF34B9B00558D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE491DF34B9B00558D1B /* AppDelegate.swift */; };
-		4431EE4C1DF34B9B00558D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE4B1DF34B9B00558D1B /* ViewController.swift */; };
+		4431EE4C1DF34B9B00558D1B /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE4B1DF34B9B00558D1B /* GoogleViewController.swift */; };
 		4431EE4F1DF34B9B00558D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE4D1DF34B9B00558D1B /* Main.storyboard */; };
 		4431EE511DF34B9B00558D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE501DF34B9B00558D1B /* Assets.xcassets */; };
 		4431EE541DF34B9B00558D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE521DF34B9B00558D1B /* LaunchScreen.storyboard */; };
@@ -43,7 +43,7 @@
 		1257105F525CD80E52520B91 /* Pods_MapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431EE461DF34B9B00558D1B /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431EE491DF34B9B00558D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4431EE4B1DF34B9B00558D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4431EE4B1DF34B9B00558D1B /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		4431EE4E1DF34B9B00558D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4431EE501DF34B9B00558D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4431EE531DF34B9B00558D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				4431EE491DF34B9B00558D1B /* AppDelegate.swift */,
-				4431EE4B1DF34B9B00558D1B /* ViewController.swift */,
+				4431EE4B1DF34B9B00558D1B /* GoogleViewController.swift */,
 				4431EE4D1DF34B9B00558D1B /* Main.storyboard */,
 				4431EE501DF34B9B00558D1B /* Assets.xcassets */,
 				4431EE521DF34B9B00558D1B /* LaunchScreen.storyboard */,
@@ -350,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4431EE4C1DF34B9B00558D1B /* ViewController.swift in Sources */,
+				4431EE4C1DF34B9B00558D1B /* GoogleViewController.swift in Sources */,
 				446F3DB21DF786DB004893B4 /* RestaurantTableViewController.swift in Sources */,
 				4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */,
 				4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */,

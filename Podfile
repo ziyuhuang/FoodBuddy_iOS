@@ -5,9 +5,7 @@ use_frameworks!
 target 'MapDemo' do
 pod 'GoogleMaps'
 pod 'GooglePlaces'
-pod 'AFNetworking'
 pod 'BDBOAuth1Manager'
-pod "YelpAPI"
 pod 'Alamofire', '~> 4.0'
 pod 'OAuthSwift', '~> 1.1.0'
 pod 'p2.OAuth2', '~> 3.0'

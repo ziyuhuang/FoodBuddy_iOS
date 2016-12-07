@@ -44,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2614" y="-212"/>
+            <point key="canvasLocation" x="-2506" y="-449"/>
         </scene>
         <!--Restaurant Table View Controller-->
         <scene sceneID="jrJ-3D-x0u">
@@ -129,7 +129,7 @@
                     </connections>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="-1974" y="-601"/>
+            <point key="canvasLocation" x="-2202" y="-719"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="evH-Tz-b2X">
