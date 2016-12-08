@@ -12,17 +12,17 @@ import UIKit
 class EventModel {
     let key:String!
     let eventRef:FIRDatabaseReference?
-    let eventTitle:String!
+    var eventTitle:String!
     let eventMessage:String!
     let eventLocation:String!
     let eventTime:String!
     let eventRestaurant:String!
     let longitude:Double!
     let latitude:Double!
-    let image:UIImage
+//    let image:UIImage
     
     init(eventTitle:String, eventMessage:String, eventLocation:String, eventTime:String,
-         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double, image:UIImage) {
+         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double) {
         self.eventTitle = eventTitle
         self.eventLocation = eventLocation
         self.eventMessage = eventMessage
@@ -30,17 +30,17 @@ class EventModel {
         self.eventTime = eventTime
         self.longitude = longitude
         self.latitude = latitude
-        self.image = image
+//        self.image = image
         eventRef = nil
         self.key = key
     }
     
     func toAnyObject()-> Any{
         
-        var imageData = Data()
-        if UIImagePNGRepresentation(image) != nil{
-            imageData = UIImagePNGRepresentation(image)!
-        }
+//        var imageData = Data()
+//        if UIImagePNGRepresentation(image) != nil{
+//            imageData = UIImagePNGRepresentation(image)!
+//        }
         
         return ["title":eventTitle,
                 "message":eventMessage,
@@ -54,17 +54,53 @@ class EventModel {
     }
     
     
-//    init(snapshot:FIRDataSnapshot){
-//        eventTitle = snapshot.key
-//        eventRef = snapshot.ref
-//        
-//        if let title = snapshot.value as? String{
+    init(snapshot:FIRDataSnapshot){
+        key = snapshot.key
+        eventRef = snapshot.ref
+        
+        let snapshotValue = snapshot.value as? NSDictionary
+        
+//        if let title = snapshotValue?["title"] as? String{
 //            eventTitle = title
 //        }else{
 //            eventTitle = ""
 //        }
-//        
-//        if let message = snapshot.v
-//    }
+        
+        if let location = snapshotValue?["location"] as? String{
+            eventLocation = location
+        }else{
+            eventLocation = ""
+        }
+        
+        if let restaurant = snapshotValue?["restaurant"] as? String{
+            eventRestaurant = restaurant
+        }else{
+            eventRestaurant = ""
+        }
+        
+        if let time = snapshotValue?["time"] as? String{
+            eventTime = time
+        }else{
+            eventTime = ""
+        }
+        
+        if let message = snapshotValue?["message"] as? String{
+            eventMessage = message
+        }else{
+            eventMessage = "Say Hi~ 👻👻👻"
+        }
+        
+        if let latitudeTemp = snapshotValue?["latitude"] as? String{
+            latitude = Double(latitudeTemp)!
+        }else{
+            latitude = 0.0
+        }
+        
+        if let longitudeTemp = snapshotValue?["longitude"] as? String{
+            longitude = Double(longitudeTemp)!
+        }else{
+            longitude = 0.0
+        }
+    }
     
 }

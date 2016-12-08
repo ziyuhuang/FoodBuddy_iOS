@@ -22,6 +22,7 @@ class EventViewController: UIViewController {
     @IBOutlet weak var eventMessageField: UITextView!
     
     var restaurantName = String()
+    var eventMessage = String()
     var restaurantLocation = String()
     var locationLogitude = Double()
     var locationLatidue = Double()
@@ -47,12 +48,18 @@ class EventViewController: UIViewController {
 //                print(mapVC.longitude)
             }
         }
+        
+//        if segue.identifier == "loadEvent"{
+//            if let eventVC = segue.destination as? ShowEventTableViewController{
+//                
+//            }
+//        }
     }
     
     @IBAction func createEvent(_ sender: Any) {
         var eventTitleEmptyFlag = false
         var eventTimeEmptyFlag = false
-        let eventMessage = eventMessageField.text
+        eventMessage = eventMessageField.text
         
         var eventTitle = String()
         var eventTime = String()
@@ -75,11 +82,13 @@ class EventViewController: UIViewController {
         //if the text field are both filled, create event
         if(eventTimeEmptyFlag && eventTitleEmptyFlag){
             let eventRef = self.dbRef.child(eventTitle.lowercased())
-            let event = EventModel(eventTitle: eventTitle, eventMessage: eventMessage!, eventLocation: restaurantLocation, eventTime: eventTime, eventRestaurant: restaurantName, longitude:locationLogitude, latitude:locationLatidue,
-                                   image:image!)
+            let event = EventModel(eventTitle: eventTitle, eventMessage: eventMessage, eventLocation: restaurantLocation, eventTime: eventTime, eventRestaurant: restaurantName, longitude:locationLogitude, latitude:locationLatidue)
             
             eventRef.setValue(event.toAnyObject())
+            self.performSegue(withIdentifier: "joinEvent", sender: nil)
+            
         }
+        
     }
 
 }
