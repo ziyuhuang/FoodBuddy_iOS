@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import BDBOAuth1Manager
-import AFNetworking
+
 import Alamofire
 
 

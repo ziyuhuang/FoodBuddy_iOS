@@ -11,22 +11,28 @@ import GoogleMaps
 
 class GoogleViewController: UIViewController {
     
+    var latitude = Double()
+    var longitude = Double()
+    var restaurant = String()
+    
     var mapView: GMSMapView?
 //    var marker:GMSMarker?
 
     
-    override func viewDidLoad() {
+    override func viewDidLoad(){
+        print(latitude)
+        print(longitude)
         super.viewDidLoad()
         
         GMSServices.provideAPIKey("AIzaSyBRLTH01_cVHGWz7kOPieKgDgpyGteZyN4");
-        let camera = GMSCameraPosition.camera(withLatitude: 37.335170, longitude: -121.881104, zoom: 12)
+        let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 12)
         mapView = GMSMapView.map(withFrame: .zero, camera: camera)
         self.view = mapView
         
-        let currentLocation = CLLocationCoordinate2DMake(37.335520, -121.885020)
+        let currentLocation = CLLocationCoordinate2DMake(latitude, longitude)
         let marker = GMSMarker(position:currentLocation)
-        marker.title = "San Jose State University"
-        marker.snippet = "SJSU"
+        marker.title = restaurant
+        marker.snippet = "food"
         marker.map = mapView
         
 //        navigationItem.rightBarButtonItem = UIBarButtonItem(title:"next",

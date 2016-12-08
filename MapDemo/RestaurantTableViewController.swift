@@ -10,12 +10,7 @@ import UIKit
 import Alamofire
 import OAuthSwift
 import p2_OAuth2
-//
-//struct RestaurantCell{
-//    var restaurantImageView: UIImageView!
-//    var restaurantName: UILabel!
-//    var restaurantAddress: UILabel!
-//}
+
 
 class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
@@ -54,7 +49,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return resModels.count
     }
-//
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let restaurantImageView = cell.viewWithTag(1) as! UIImageView
@@ -66,14 +61,11 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
         restaurantAddress.text = resModels[indexPath.row].location
         return cell
     }
-//
-//    
+ 
     
     func fetchLocationID(text:String) {
         
-        
-//        let keyword = searchBar.text
-//        let finalKeyword = keyword?.replacingOccurrences(of: " ", with: "%20")
+
         let locationUrl = "https://developers.zomato.com/api/v2.1/locations?query=\(text)&count=1"
         
         let url = URL(string: locationUrl)
@@ -99,16 +91,8 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                 print(error)
             }
         })
-        
-        
-        
-//        return locationID!
     }
-//    
-//    func replaceSpaceInKeyword(keyword:String) -> String {
-//        let newString = keyword.replacingOccurrences(of: " ", with: "%20")
-//        return newString
-//    }
+
     
     func fetchData(){
         
@@ -130,14 +114,16 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                         let resName = myRes["name"] as? String
                         
                         var address = String()
-                        var longitude = String()
-                        var latitude = String()
+                        var longitude = Double()
+                        var latitude = Double()
                         var image = UIImage()
                         
                         if let locations = myRes["location"] as? JSONStanard{
                             address = locations["address"] as! String
-                            longitude = locations["longitude"] as! String
-                            latitude = locations["latitude"] as! String
+                            let longitudeString = locations["longitude"] as! String
+                            let latitudeString = locations["latitude"] as! String
+                            longitude = Double(longitudeString)!
+                            latitude = Double(latitudeString)!
                             //                            print(location)
                         }
                         
@@ -151,10 +137,8 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                         let resModel = RestaurantMode(restaurantName: resName, location: address, longtitude: longitude, latitude: latitude, image:image)
                         self.resModels.append(resModel)
                         self.tableView.reloadData()
-                        
                     }
                 }
-                
             }
             catch{
                 print(error)
@@ -168,5 +152,8 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
         let vc = segue.destination as! EventViewController
         vc.restaurantName = resModels[indexPath!].restaurantName
         vc.restaurantLocation = resModels[indexPath!].location
+        vc.locationLatidue = resModels[indexPath!].latitude
+        vc.locationLogitude = resModels[indexPath!].longitude
+        vc.image = resModels[indexPath!].image
     }
 }
