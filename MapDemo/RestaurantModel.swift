@@ -14,14 +14,16 @@ class RestaurantMode: NSObject {
     var longitude:Double!
     var latitude:Double!
     var image:UIImage?
+    var rating:Double!
 //    var restaurantID:Int!
     
     
-    required init(restaurantName:String!, location:String!, longtitude:Double!, latitude:Double!, image:UIImage?){
+    required init(restaurantName:String!, location:String!, longtitude:Double!, latitude:Double!, image:UIImage?, rating:Double!){
         self.restaurantName = restaurantName
         self.image = image
         self.location = location
         self.longitude = longtitude
         self.latitude = latitude
+        self.rating = rating
     }
 }

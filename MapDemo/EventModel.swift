@@ -60,11 +60,11 @@ class EventModel {
         
         let snapshotValue = snapshot.value as? NSDictionary
         
-//        if let title = snapshotValue?["title"] as? String{
-//            eventTitle = title
-//        }else{
-//            eventTitle = ""
-//        }
+        if let title = snapshotValue?["title"] as? String{
+            eventTitle = title
+        }else{
+            eventTitle = ""
+        }
         
         if let location = snapshotValue?["location"] as? String{
             eventLocation = location

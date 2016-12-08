@@ -57,8 +57,8 @@ class ShowEventTableViewController: UITableViewController {
         
         locationLabel.text = events[indexPath.row].eventLocation
         titleLabel.text = events[indexPath.row].eventTitle
-        timeLabel.text = events[indexPath.row].eventTime
-        messageTextView.text = events[indexPath.row].eventMessage
+        timeLabel.text =  "Time: " + events[indexPath.row].eventTime
+        messageTextView.text = "Message from Host: \n" + events[indexPath.row].eventMessage
         return cell
     }
 }

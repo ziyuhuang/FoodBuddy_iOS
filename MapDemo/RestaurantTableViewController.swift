@@ -18,7 +18,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
     var locationID:Int?
     
-    var myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=278&entity_type=city&radius=1000"
+    var myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=10883&entity_type=city&radius=1000"
 //    var myUrl = "https://developers.zomato.com/api/v2.1/search?entity_id=278&entity_type=city&radius=1000"
 
     
@@ -56,10 +56,12 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
         let restaurantImageView = cell.viewWithTag(1) as! UIImageView
         let restaurantName = cell.viewWithTag(2) as! UILabel
         let restaurantAddress = cell.viewWithTag(3) as! UILabel
+        let restaurantRating = cell.viewWithTag(4) as! UILabel
         
         restaurantImageView.image = resModels[indexPath.row].image
         restaurantName.text = resModels[indexPath.row].restaurantName
         restaurantAddress.text = resModels[indexPath.row].location
+        restaurantRating.text = "Rating: " + String(resModels[indexPath.row].rating)
         return cell
     }
  
@@ -110,6 +112,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                 //                print(readableData)
                 if let restaurants = readableData["restaurants"] as? [JSONStanard]{
                     for res in restaurants{
+//                        print(res)
                         let myRes = res["restaurant"] as! JSONStanard
                         print(myRes["name"]!)
                         let resName = myRes["name"] as? String
@@ -118,6 +121,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                         var longitude = Double()
                         var latitude = Double()
                         var image = UIImage()
+                        var rating = Double()
                         
                         if let locations = myRes["location"] as? JSONStanard{
                             address = locations["address"] as! String
@@ -128,6 +132,11 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                             //                            print(location)
                         }
                         
+                        if let userRating = myRes["user_rating"] as? JSONStanard{
+                            let ratingString = userRating["aggregate_rating"] as! String
+                            rating = Double(ratingString)!
+                        }
+                        
                         //get image
                         let featuredImageUrl = myRes["featured_image"] as! String
                         let imageUrl = NSURL(string: featuredImageUrl) as! URL
@@ -135,7 +144,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
                             image = UIImage(data: imageData)!
                         }
                         
-                        let resModel = RestaurantMode(restaurantName: resName, location: address, longtitude: longitude, latitude: latitude, image:image)
+                        let resModel = RestaurantMode(restaurantName: resName, location: address, longtitude: longitude, latitude: latitude, image:image, rating:rating)
                         self.resModels.append(resModel)
                         self.tableView.reloadData()
                     }
@@ -149,12 +158,16 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let indexPath = self.tableView.indexPathForSelectedRow?.row
-        let vc = segue.destination as! EventViewController
-        vc.restaurantName = resModels[indexPath!].restaurantName
-        vc.restaurantLocation = resModels[indexPath!].location
-        vc.locationLatidue = resModels[indexPath!].latitude
-        vc.locationLogitude = resModels[indexPath!].longitude
-        vc.image = resModels[indexPath!].image
+        
+        if segue.identifier != "jumpToEventList"{
+            let indexPath = self.tableView.indexPathForSelectedRow?.row
+            let vc = segue.destination as! EventViewController
+            vc.restaurantName = resModels[indexPath!].restaurantName
+            vc.restaurantLocation = resModels[indexPath!].location
+            vc.locationLatidue = resModels[indexPath!].latitude
+            vc.locationLogitude = resModels[indexPath!].longitude
+            vc.image = resModels[indexPath!].image
+        }
+
     }
 }
