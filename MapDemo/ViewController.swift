@@ -18,14 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
-        if let user = FIRAuth.auth()?.currentUser{
-            self.Logoutbutton.alpha=1.0
-            self.usernamelable.text = user.email
-        }else{
-            self.Logoutbutton.alpha=0.0
-            self.usernamelable.text = ""
-        }
+        self.usernamelable.text = "Food Buddy"
         
     }
 
@@ -52,7 +45,6 @@ class ViewController: UIViewController {
                 
                 if error == nil{
                     self.Logoutbutton.alpha = 1.0
-                    self.usernamelable.text = user!.email
                     self.emailField.text = ""
                     self.passwordfield.text = ""
                     let ref = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/")
@@ -99,14 +91,11 @@ class ViewController: UIViewController {
             
             self.present(alertcontroller, animated: true, completion: nil)
         }else{
-            
             FIRAuth.auth()?.signIn(withEmail: self.emailField.text!, password: self.passwordfield.text!, completion: {(user,error) in
                 
                 if error == nil{
-                     let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "welcomeViewController") as! welcomeViewController
-                    self.present(secondViewController, animated: true, completion: nil)
+                    self.performSegue(withIdentifier: "Loggedin", sender: nil)
                     self.Logoutbutton.alpha = 1.0
-                    self.usernamelable.text = user!.email
                     self.emailField.text = ""
                     self.passwordfield.text = ""
                     
@@ -142,16 +131,6 @@ class ViewController: UIViewController {
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "maintowelcome") {
-            let svc = segue.destination as! welcomeViewController;
-            
-            self.emailField.text = svc.Emailstring.text 
-            
-        }
-        
-    }
-
     
 }
 

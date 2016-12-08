@@ -21,7 +21,7 @@
                         <color key="barTintColor" red="1" green="0.54003813520364785" blue="0.39517809272869919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="tie-EL-u3j" kind="relationship" relationship="rootViewController" id="rFh-IV-bR3"/>
+                        <segue destination="5Nk-xe-wL0" kind="relationship" relationship="rootViewController" id="uxa-tE-NLA"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bWD-Qj-l6U" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -421,7 +421,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQo-zW-R8o">
-                                <rect key="frame" x="155" y="68" width="42" height="21"/>
+                                <rect key="frame" x="155" y="112" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -480,16 +480,18 @@
                             <constraint firstItem="7ze-Ru-aCt" firstAttribute="top" secondItem="NzN-VM-FiE" secondAttribute="bottom" constant="29" id="p4L-DD-WDe"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="amr-as-uAg"/>
                     <connections>
                         <outlet property="Logoutbutton" destination="bUn-T3-4jm" id="osq-8D-fcf"/>
                         <outlet property="emailField" destination="iWg-HM-ifn" id="QAa-7X-zK0"/>
                         <outlet property="passwordfield" destination="NzN-VM-FiE" id="FCc-FO-dao"/>
                         <outlet property="usernamelable" destination="wQo-zW-R8o" id="GsB-t6-KhF"/>
+                        <segue destination="tie-EL-u3j" kind="show" identifier="Loggedin" id="DM5-kI-1CQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ShT-sW-Qxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-553" y="-873"/>
+            <point key="canvasLocation" x="-3039" y="-127"/>
         </scene>
     </scenes>
     <resources>

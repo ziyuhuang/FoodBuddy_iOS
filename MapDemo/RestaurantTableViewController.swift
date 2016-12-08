@@ -43,6 +43,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: true)
         fetchData( )
     }
     
