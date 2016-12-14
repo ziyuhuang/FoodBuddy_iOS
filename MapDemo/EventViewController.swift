@@ -57,6 +57,9 @@ class EventViewController: UIViewController {
     }
     
     @IBAction func createEvent(_ sender: Any) {
+
+        uploadRestaurantImageToFireBase()
+        
         var eventTitleEmptyFlag = false
         var eventTimeEmptyFlag = false
         eventMessage = eventMessageField.text
@@ -87,6 +90,26 @@ class EventViewController: UIViewController {
             eventRef.setValue(event.toAnyObject())
             self.performSegue(withIdentifier: "joinEvent", sender: nil)
             
+        }
+        
+    }
+    
+    func uploadRestaurantImageToFireBase(){
+        
+        let storageRef = FIRStorage.storage().reference(forURL: "gs://foodbuddy-8e869.appspot.com").child("images/myImage.png")
+        
+        if let uploadData = UIImagePNGRepresentation(image!){
+            storageRef.put(uploadData, metadata: nil, completion: {
+                (metadata, error) in
+                
+                if error != nil{
+                    print(error!)
+                    return
+                }
+                
+                print(metadata!)
+                
+            })
         }
         
     }

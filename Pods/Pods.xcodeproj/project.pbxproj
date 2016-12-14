@@ -7,145 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000E48637A4FA6FCA636ACBA9E0E9B11 /* OAuth2Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCD39732F2971DFF6F2B22C6819B26 /* OAuth2Logger.swift */; };
-		0112FF5EFCCFFD547E8EF252F3417F3D /* OAuth2CodeGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30FF4DF1147F015038A5A3782A749E /* OAuth2CodeGrant.swift */; };
-		01DC5C2231FC569A70D612B28BD6EA1D /* OAuth2ClientCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F10A3C7145270ECBC8E9BD713AEE3 /* OAuth2ClientCredentials.swift */; };
-		02B53E8A1D14F1140A1C4C2C495F3030 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A29E5E1B155BD0CA557FAF369C44 /* Int+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		04641885EEE5A71E38D6CDEE702FA822 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F87140EDDDFE9D90DBF2DC9D387D69 /* AFHTTPSessionManager.m */; };
-		05198A6CF222D05ECCECAED1D86B93D4 /* OAuth2DynReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67803B3B55FCC2FB2305C41DBD1B0EEC /* OAuth2DynReg.swift */; };
-		06C5A7B2555701AFA69DDD18434298AF /* OAuth2DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8DC399F5D7605570DB0A64D8D25001 /* OAuth2DataRequest.swift */; };
-		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = C641202E047F9A0550218E5FDD10F516 /* GTMSessionFetcherLogging.m */; };
-		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE80BCE551E0EB00A7BA1ADF9912BF33 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F2504A8AEEEFCDD1ADABEDFBB1D6266 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F51B5EC90DF0C58F3814BE5D9D02A /* extensions.swift */; };
-		0F3AD9627422F09B5C7136257D2A21FA /* NSDictionary+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C859852E22DCF6B8361C683DF1DCE /* NSDictionary+BDBOAuth1Manager.m */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AC9C5D22A29E692E7EF924AC8F408D /* Timeline.swift */; };
-		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF8161562A54277C21387E591C2C9DF /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A3F4C823D944D857E784D373AF9D25 /* OAuth2DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875502EFCA813C5C59A26C8CD63FF4A /* OAuth2DataLoader.swift */; };
-		1493C3C80EFDB0A93BEFD656ECB58951 /* NSError+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBAC6D5E857C90E4B663FD729830DA /* NSError+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		150A64AAB054395321E19F5D37B68E7A /* BDBOAuth1RequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = DD64CF6C7729B4D365F3E89D96C9C957 /* BDBOAuth1RequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16F8D9A3EB40747144F0D7FF2D6CB6D0 /* OAuth2Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30438467C344DBA75A24CF8F21CF7CA5 /* OAuth2Base.swift */; };
-		182B1133312810952E8D2868EF31AF7D /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69B6A6A3B3F4B9ADB391864F72AB830 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000E48637A4FA6FCA636ACBA9E0E9B11 /* OAuth2Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923198940873D65B413A5DB7BEBA197E /* OAuth2Logger.swift */; };
+		0112FF5EFCCFFD547E8EF252F3417F3D /* OAuth2CodeGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60239064FEA1153D16C5F9665884FBAF /* OAuth2CodeGrant.swift */; };
+		01DC5C2231FC569A70D612B28BD6EA1D /* OAuth2ClientCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA30FA6168C362D9A05F76ECF168B2F /* OAuth2ClientCredentials.swift */; };
+		02B53E8A1D14F1140A1C4C2C495F3030 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5843CE3B081946099CECF1BA14731E1C /* Int+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04641885EEE5A71E38D6CDEE702FA822 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D5760E635F4143303C333F558D73CB /* AFHTTPSessionManager.m */; };
+		05198A6CF222D05ECCECAED1D86B93D4 /* OAuth2DynReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F73E004D1FC60561D4BCBAD9D533D /* OAuth2DynReg.swift */; };
+		06C5A7B2555701AFA69DDD18434298AF /* OAuth2DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246279B4BAEED47D8C8AC41F9CDD8208 /* OAuth2DataRequest.swift */; };
+		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = C68FB67B00FBFBA2509A4526D454F192 /* GTMSessionFetcherLogging.m */; };
+		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2C60136496ADC9F31B54902278B14F /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2504A8AEEEFCDD1ADABEDFBB1D6266 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68240A5967738EAEAF05AB69AA6079A1 /* extensions.swift */; };
+		0F3AD9627422F09B5C7136257D2A21FA /* NSDictionary+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D2A29D8E402D033FABAE44C60CC3C3 /* NSDictionary+BDBOAuth1Manager.m */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC68C8FC814B675FFCEFDD3F927C8D /* Timeline.swift */; };
+		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 458995CACA1C35232D4D250B46732678 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A3F4C823D944D857E784D373AF9D25 /* OAuth2DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450DEF8F592856BC594A91FF293C81D /* OAuth2DataLoader.swift */; };
+		1493C3C80EFDB0A93BEFD656ECB58951 /* NSError+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE66CF15D75DAF298F477F6EA8ED92 /* NSError+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		150A64AAB054395321E19F5D37B68E7A /* BDBOAuth1RequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA17BB2CA9DDF14EF63DE96C38E9137 /* BDBOAuth1RequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F8D9A3EB40747144F0D7FF2D6CB6D0 /* OAuth2Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873EF638BFF09EDB286EDD53E835F6B /* OAuth2Base.swift */; };
+		182B1133312810952E8D2868EF31AF7D /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BABF46A77A172D5C92473E4D72089FEC /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A22C0F01FA2A92FC26B01E42998AB4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A6C98E5C2738215E67653EF6044FEF /* CoreGraphics.framework */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE0ACAABFF352C0D33E04136A3A050F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D2F6FFDC931CB54D8C74113DD750FD9 /* OAuth2AuthorizerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E85B00B2A4CD1ADFEEF2FC1E34A434 /* OAuth2AuthorizerUI.swift */; };
-		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F4E945AED61AAEFE7A08A43733B725 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E0FCF77D41D6AD391EB2A377AE1A94 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D2F6FFDC931CB54D8C74113DD750FD9 /* OAuth2AuthorizerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB049571D47429FD4C728CFA4B3D83FB /* OAuth2AuthorizerUI.swift */; };
+		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CB2B1F0DFB50387B4367089903C4BD /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F9B999DFAA1052294448B64C77434B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
 		2094D6916EA6158F6A24D50BCD21E183 /* Pods-MapDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C001970241A150D4EAC4693C827B1A /* Pods-MapDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B6A9B29CB6255F6C539EA5BD508C09 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		319FA27229C73E95F315F2CD29627A00 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF18DAE98D230DE007D469C5706028 /* HMAC.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		31DEBC2ACD3FEFC61BAE77A8E069B989 /* BDBOAuth1Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4E04B8AE4FEF553D3CE0B8D4AC7DA /* BDBOAuth1Manager-dummy.m */; };
-		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD65EC088C4D560437E4DAB038752D19 /* GoogleToolboxForMac-dummy.m */; };
-		336392A9E1F21CD8DFBB3D87C5548E2A /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71368DF2C934BDE54BC7AD2318E75AD /* OAuthSwiftMultipartData.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D8DEAF41FF10F534A201A77ADF343 /* TaskDelegate.swift */; };
-		38126B8F80842DFFF9E9A3D946E4DE8E /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E9E4A125E83B64CC924A3BF1741321 /* OAuthSwiftURLHandlerType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304449B2F566AB7A54C16F3A2760856 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		319FA27229C73E95F315F2CD29627A00 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD890040A8E82739455FE2D3CB0E9E /* HMAC.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31DEBC2ACD3FEFC61BAE77A8E069B989 /* BDBOAuth1Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148BB2F51D278525CE59C7DD6CEAE4DE /* BDBOAuth1Manager-dummy.m */; };
+		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A709FB87430EEFB1A94A0F834EE9174E /* GoogleToolboxForMac-dummy.m */; };
+		336392A9E1F21CD8DFBB3D87C5548E2A /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226D8B1B0EDD17DFDEBD3F6706E868B /* OAuthSwiftMultipartData.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D97D9CB051D8FC456FE7748D8DDD65 /* TaskDelegate.swift */; };
+		38126B8F80842DFFF9E9A3D946E4DE8E /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623648CE390575CC019F5C295A8FE68 /* OAuthSwiftURLHandlerType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		43A6AF99419EA857448DA01268F02E74 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175554313F36135E73AA35EEE9741B0B /* Security.framework */; };
-		46039CDF37551F5CD083176E59D08805 /* Objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC72911E76BC95A24B085DEDAC0269 /* Objc.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		46039CDF37551F5CD083176E59D08805 /* Objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B743199B38B4B471EA224E8DA9EE4E6 /* Objc.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		46ADE78437829055E307C691C95ED251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
 		47DDD69E0B018732A013912BEAE3F2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		49C4A2FDCB07CC56A769DDA73A88ACAE /* OAuth2AuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1AD8078CDDD1C6473AAFE8BEBD7DB /* OAuth2AuthConfig.swift */; };
-		4AC4DDCB9DE2157B67300C14F13300B8 /* OAuth2RequestPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85788D4B928AADB6D4397F89095A9151 /* OAuth2RequestPerformer.swift */; };
-		4E4A8AC538681B0A415DF2FDC70AD217 /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A172B721F8BC5BA2A5C33788D581E /* OAuth2PasswordGrant.swift */; };
+		49C4A2FDCB07CC56A769DDA73A88ACAE /* OAuth2AuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE83701889CBB774F5805FB68E1AC4A /* OAuth2AuthConfig.swift */; };
+		4AC4DDCB9DE2157B67300C14F13300B8 /* OAuth2RequestPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B292E6042B6B06CA60979ACBEB8D9 /* OAuth2RequestPerformer.swift */; };
+		4E4A8AC538681B0A415DF2FDC70AD217 /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E707FA41BEC4A277DC7FBF64D82850 /* OAuth2PasswordGrant.swift */; };
 		4E4C1FC7ACC255B3023E863B473126ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C1B9645F8DCF8B84FEFBC3ADF1CD60 /* SystemConfiguration.framework */; };
-		4F01FB96C9038D883685C0BAF62966A7 /* NSDictionary+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F49771497DE2C256C2ACCE1D3144DAB /* NSDictionary+BDBOAuth1Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA7D7CA6F8F9CAB7B2A5AA815CF2DEF /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		504B7932402286477759192E01413768 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B37D4BAFC60249FBF0CA05B05A633 /* OAuth1Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		526BE4AFCE367B47D18AFB500C958396 /* OAuthSwiftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF77E5F816F053FE05654B5772D2D5 /* OAuthSwiftResponse.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1427B2A3093D33EBF999FD879D147 /* Request.swift */; };
-		557F40B925D4627F510766E01EFCDC2C /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EC741712579DD7D010F8D1BFFC8BC /* SHA1.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		59BF6DB70683590930D1357612F2FFFB /* p2.OAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFB7C693DD4D4200287DDA25CBAF2B6 /* p2.OAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A76BEA5D61DD79F698ECEA3776CB7EA /* OAuth2Securable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808DA6031502B73AC1E3CB970AEC486 /* OAuth2Securable.swift */; };
-		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = B939ADA509DCED041A090CAA0D7DA1B9 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0517C5CEBDFF13627ADF4A1E28E0044A /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A7FA8BC756B487980A6D90A69678 /* ServerTrustPolicy.swift */; };
-		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D5BD4B5D771636DD59A12919500E5 /* GTMSessionFetcher.m */; };
+		4F01FB96C9038D883685C0BAF62966A7 /* NSDictionary+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88A70551AE97F9C606EC8EAC13A733 /* NSDictionary+BDBOAuth1Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1C3B7F6B3172252D376A258540578 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504B7932402286477759192E01413768 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27148074530CA7AD3E28E91E5A7AEC9 /* OAuth1Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		526BE4AFCE367B47D18AFB500C958396 /* OAuthSwiftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354D335E62D3DDFD2927E9675A1A72F /* OAuthSwiftResponse.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE13535532664BFDEE911E25A04A8EC1 /* Request.swift */; };
+		557F40B925D4627F510766E01EFCDC2C /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF3EB29A6183CBAD7BAC06094E180A /* SHA1.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59BF6DB70683590930D1357612F2FFFB /* p2.OAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21101EC90B190A47EEED9BDCB1E729F7 /* p2.OAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A76BEA5D61DD79F698ECEA3776CB7EA /* OAuth2Securable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC8E5816180A98247D8B03D8A3971B /* OAuth2Securable.swift */; };
+		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB37B49485BDC0729DC531B7046938C /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB3FA8E4A800FCC6992A81874D04F9 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDD6FC8D2C864DC25A50473D488095 /* ServerTrustPolicy.swift */; };
+		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E81C4012F54A254A43D19DFE3AE8846 /* GTMSessionFetcher.m */; };
 		65B56BD3DBC9B81BB008219D0BA735A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175554313F36135E73AA35EEE9741B0B /* Security.framework */; };
-		661A843BC71B4334E7DF291A66158B98 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D24232335C402B4F751F9B6A70B6510 /* AFNetworkReachabilityManager.m */; };
-		69F5A2CE446CA05BE07ACD260CEFFB31 /* BDBOAuth1SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 586858C7A01574D36908ED2EAC372F6F /* BDBOAuth1SessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661A843BC71B4334E7DF291A66158B98 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DFD1AE7DF281D2B1CB7073730215BC /* AFNetworkReachabilityManager.m */; };
+		69F5A2CE446CA05BE07ACD260CEFFB31 /* BDBOAuth1SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 553478D475A4D6728B4A9E852A4CFF96 /* BDBOAuth1SessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C827D4032B77D67469126421C1599F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		6DB5CB8D49DC6C606FBB519E29383D7F /* OAuth2KeychainAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B4377EB068FA7796C00C2D12B7181 /* OAuth2KeychainAccount.swift */; };
-		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA80348F80668737198AE8C6FE478183 /* GTMSessionFetcher-dummy.m */; };
-		7A2C1728194798ACC5F21E10CC29D37E /* BDBOAuth1Manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8FDC8410EE459C789F5F38EC138D6B /* BDBOAuth1Manager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D14887CE8DB27B59C967983BFC3769 /* SessionDelegate.swift */; };
-		7C91C5DFCE617C5BE5D55946D4B36B04 /* OAuth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D17201DB633E727ACB26DEE17AF577 /* OAuth2WebViewController.swift */; };
-		7D43AF772B5A19BFCE5F8DB3FA750A58 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9078234423AEB6BFD7844F6F2127B7DF /* AFNetworking-dummy.m */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398AB7417A567DFF3EE2C08CBD498667 /* Result.swift */; };
-		7F3107FE36F324E639011942F4DC5495 /* NSString+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D5D78B39A0DD3DC666BB1B35BB3105 /* NSString+BDBOAuth1Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E171C4EA34215415C43D94AD953D0B /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC6654D976BBC72AE969A3B88189569 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0658E22F91D148B3E8D29FB0434C55 /* AFURLResponseSerialization.m */; };
-		8D659D019E3980DE8F3D0E4BC839DE30 /* URL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904AB3A78E09883E4D2C730B78864BB /* URL+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		908092E9372E35752C03E7380561BB73 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6778AC866C308EE51728032A84FCB /* UIApplication+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = B02210547CB9DB6C959961BF6FD08992 /* GTMSessionFetcherService.m */; };
+		6DB5CB8D49DC6C606FBB519E29383D7F /* OAuth2KeychainAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11C4638F161E791E57A40D3C524C5D /* OAuth2KeychainAccount.swift */; };
+		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC332FFAB878D521CF6448E44097E4 /* GTMSessionFetcher-dummy.m */; };
+		7A2C1728194798ACC5F21E10CC29D37E /* BDBOAuth1Manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596F19015B762DC9B5B7AF7DC3567681 /* BDBOAuth1Manager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E87B0E249EEAD9559C27AD75DF312 /* SessionDelegate.swift */; };
+		7C91C5DFCE617C5BE5D55946D4B36B04 /* OAuth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B994773F1B0AEF993A90658E870CED4A /* OAuth2WebViewController.swift */; };
+		7D43AF772B5A19BFCE5F8DB3FA750A58 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24F9D9131237AD17FC182EAC3A6039 /* AFNetworking-dummy.m */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6C54EE72006551B323C9EB4954448 /* Result.swift */; };
+		7F3107FE36F324E639011942F4DC5495 /* NSString+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEBA633115BAB0EFCD02ABA350826BC /* NSString+BDBOAuth1Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2200429AACAA988ECBBC550EF09C607B /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC6654D976BBC72AE969A3B88189569 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0E8D6780209B8DF5ED22FE5D2AAEF /* AFURLResponseSerialization.m */; };
+		8D659D019E3980DE8F3D0E4BC839DE30 /* URL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A0B24B07FA3D60D3B06B702EB4793 /* URL+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		908092E9372E35752C03E7380561BB73 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC8AC443307AB296111C5175E3579C /* UIApplication+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8A9D5DCF2A5D8C502912DF73855108 /* GTMSessionFetcherService.m */; };
 		967551D370060AE0F4BC86BA2FE66E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		96D8591D905889951E10AA14379D4116 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4830DFBBBDECCEE518F78F23DC4C1612 /* AFURLSessionManager.m */; };
-		98A5E9B0D058C29935580754F62165B9 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F47E1D1B699369027C05C11C69955 /* OAuthSwiftHTTPRequest.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		98B0C6A5A6D1682282BE0FAAAAA09655 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B4DBEC265366EFFDF2D5EF4EC8E096 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		996876C8CB6B09A91413D472C561A332 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66183DABE024C13A66F153114B104F /* Utils.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		99B5C635F458DEC443EE7937E597B345 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E9AA7EF0465ADDE87338CA53A40417 /* OAuthSwiftCredential.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9B839C86E17FDB719633CAE0654F2FFB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9537A87A5DA5C005651E06CB38F7B5A /* AFSecurityPolicy.m */; };
-		9E1984A0D5880162730DA65DEFD4060B /* OAuth2CodeGrantFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B3616F1EFA921ABDDC2D8FE5BCD2DD /* OAuth2CodeGrantFacebook.swift */; };
-		9ECE678F73BB7D2A3EAA18C514404612 /* OAuth2Authorizer+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06317AC8C03E271D05D3C0A087E6B4E /* OAuth2Authorizer+iOS.swift */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94AD47EA09B96C75E4B380F1706273A /* AFError.swift */; };
+		96D8591D905889951E10AA14379D4116 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA58DF5AAAE6DD7A72A0EC7CF06EE03 /* AFURLSessionManager.m */; };
+		98A5E9B0D058C29935580754F62165B9 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36A51D7FF103827756EC23D41E95E8 /* OAuthSwiftHTTPRequest.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98B0C6A5A6D1682282BE0FAAAAA09655 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFE2EA33B50DB70C2BDD17280116752 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996876C8CB6B09A91413D472C561A332 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7F578E34A0FC60D9060031FED60C8 /* Utils.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99B5C635F458DEC443EE7937E597B345 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D530E799872723D91B8FE46258BC84E /* OAuthSwiftCredential.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B839C86E17FDB719633CAE0654F2FFB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1E1E268A2F0F7065E2E81507A66AA0 /* AFSecurityPolicy.m */; };
+		9E1984A0D5880162730DA65DEFD4060B /* OAuth2CodeGrantFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6F66DA39D5BB4FAAF292691B52D2B /* OAuth2CodeGrantFacebook.swift */; };
+		9ECE678F73BB7D2A3EAA18C514404612 /* OAuth2Authorizer+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FD26A0E4C570012FE856212C77D44 /* OAuth2Authorizer+iOS.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57413BBC4CCB5EC6F28A668F221E5B70 /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFBC730F73C33DB25F330C8FE2B5A7 /* NetworkReachabilityManager.swift */; };
-		A38497BD2E8C09F7A480EB25C7406E27 /* OAuth2Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC1A2F7388FBD0F9AABC2309AF20B2 /* OAuth2Response.swift */; };
-		A4D7612E76AF75C66659EB84F94E7350 /* OAuth2Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9D974C72FAC0DB43CF95DF8395DCE /* OAuth2Requestable.swift */; };
-		A56E0825F9528766A79774F59F65D033 /* Data+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6688FBDDAF958657F5BA285C531A78 /* Data+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A5F484A66074B4B788BEB25174048A96 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8AF77223AD1D9415EEB66E0E93F32C /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A685C9A5921391B00E46DF9ADC1EBAB7 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A694E3610691EFDCA446F24B719C528E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AAF2CCA4DF1FDA501D51AA2233B559 /* Alamofire-dummy.m */; };
-		AA900F06190E6D2A056505D3FB496F3F /* OAuth2ImplicitGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A44B5EEAB6B3142ACC62F45C9D3CA4 /* OAuth2ImplicitGrant.swift */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C6DF6921DC326E8F3A038B21D50CE /* SessionManager.swift */; };
-		AEB9B3389EBE92E5A1A5D0C2F7ECF5B1 /* OAuth2DebugURLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B285C99B93440EFBEB00DBE24D438E /* OAuth2DebugURLSessionDelegate.swift */; };
-		AED4DEADC81D7EA3ED9FB99DE4661B5B /* OAuth2AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F2CDFF46CA6B28F9561F37F95998B /* OAuth2AuthRequest.swift */; };
-		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 064981819F94541C3EE7812033EF7670 /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B283A711D10E193B1DD49F6974278CC0 /* OAuth2ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860CB61D68CFA35A98A8696833E66ED /* OAuth2ClientConfig.swift */; };
-		B5A3C756F2A1A374CE568556C51E016D /* OAuthSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E62193EBB83DC6061F31B3F8B49442 /* OAuthSwift-dummy.m */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE273BFC14CB90E346F4F2A7E6703A77 /* MultipartFormData.swift */; };
-		B6D293192FF9B12BC7298BA7CA635D0F /* OAuthSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7C573D120D2136580575A1C4515B5 /* OAuthSwiftError.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 69312006595FB4D8D9B61F6016490F63 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB507294259FA79ED7341CCC6699EF43 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C121AD3E8DE015AE55B20AA967485F30 /* AFURLRequestSerialization.m */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51E6377123B7FCF1C83B8FA0C854D5 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20497739E3AE494DAB0AEA999E460E7 /* ParameterEncoding.swift */; };
-		C1B1D7F806D56D75E00CE12E85FF802E /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F53A114E2A8ADA598463622C87136E /* BDBOAuth1SessionManager.m */; };
-		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BA22F07B2345632DF440B188366126 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C50171372850795B345F25583F79238E /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5A96BEEDE3D78FF6CF137AA1E952A8 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71222091B9B850C8BD775F7E2D70DE8 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726296C964E615072806FA3223B4B724 /* String+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C76F54B0C53267C61FEC8209F4CB5E3E /* NSString+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8652422A46FE0DACE4FBB5B8E3BEEC /* NSString+BDBOAuth1Manager.m */; };
-		C7C95124FF12DBD150D942367727A376 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988F39582C5E9702145053632315E7B /* Keychain.swift */; };
-		CA34502D953403367D86F5B3EC4C5AF7 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83694DC72B41610F491A9C3AB0290414 /* OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CAA7BC60E99C9FF4DBF202AE1A493BE0 /* OAuth2CodeGrantBasicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B0A9A8DD4AD4C6F007609EDBC005D /* OAuth2CodeGrantBasicAuth.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2ED9A90DFEBEB7D14E81C11F5C6E6 /* Response.swift */; };
-		CCD1900F65E518B2F14B73C668BBF576 /* OAuth2Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EE71E03E170A2D57DD8FB0A41BBAEB /* OAuth2Error.swift */; };
-		CD24C15797F831ACE809757A184A4223 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69A8FA255015A9B20BEE7680B2B15A /* OAuth2Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F805D37FB6FE498ED4C13D23546376 /* NetworkReachabilityManager.swift */; };
+		A38497BD2E8C09F7A480EB25C7406E27 /* OAuth2Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B5C733790FECE121BC67658566361 /* OAuth2Response.swift */; };
+		A4D7612E76AF75C66659EB84F94E7350 /* OAuth2Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F5EEC8198B02CD9FAB60697A745D9 /* OAuth2Requestable.swift */; };
+		A56E0825F9528766A79774F59F65D033 /* Data+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D9A70BBFDBF5D3F90BA5123FC449B /* Data+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5F484A66074B4B788BEB25174048A96 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAA93BB33FE5858032CBE401679230B /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A685C9A5921391B00E46DF9ADC1EBAB7 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BA73B1C9A73553B1D34524F96E0383 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B26A64085741F11FE2C9A229B342026F /* Alamofire-dummy.m */; };
+		AA900F06190E6D2A056505D3FB496F3F /* OAuth2ImplicitGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC3449B08298CD44DF96EA61B53846 /* OAuth2ImplicitGrant.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA35CC955AB5D4F673562B4EB9B746A /* SessionManager.swift */; };
+		AEB9B3389EBE92E5A1A5D0C2F7ECF5B1 /* OAuth2DebugURLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117C330C46E014B9374C5304711BB1C /* OAuth2DebugURLSessionDelegate.swift */; };
+		AED4DEADC81D7EA3ED9FB99DE4661B5B /* OAuth2AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0131112E3065CEF939AF2E3BB4E9AC29 /* OAuth2AuthRequest.swift */; };
+		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EAEF0BD7F75860FDD2A4B5261D586A /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B283A711D10E193B1DD49F6974278CC0 /* OAuth2ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F33D74D48B410D01DC79245DADBA2A1 /* OAuth2ClientConfig.swift */; };
+		B5A3C756F2A1A374CE568556C51E016D /* OAuthSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C65D57B69DD4AF92067BC98434C6B /* OAuthSwift-dummy.m */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BDBCD974CCA92AB8FD89FE837C70C /* MultipartFormData.swift */; };
+		B6D293192FF9B12BC7298BA7CA635D0F /* OAuthSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E40A076B02670EA385100C36859A5 /* OAuthSwiftError.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E7440B1AFA877FAB1806EA980DBDD1 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB507294259FA79ED7341CCC6699EF43 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B48A8D838B66670F9810661299A6C6 /* AFURLRequestSerialization.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95035E2DDAFB4D221202C7122EB8CC54 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54704E02D860DB7836DA2472366B7A /* ParameterEncoding.swift */; };
+		C1B1D7F806D56D75E00CE12E85FF802E /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BF32890323BD3035ACD699114C4A97 /* BDBOAuth1SessionManager.m */; };
+		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B0ADC6D6AAEB7A32215ACD27CD9ABBE3 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50171372850795B345F25583F79238E /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFCBC679985AA02E65DDC19050AD414 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71222091B9B850C8BD775F7E2D70DE8 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC16AD8EB2624BB0D181CD6E701358 /* String+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C76F54B0C53267C61FEC8209F4CB5E3E /* NSString+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92793108C3A2452C125A6E73E6B85AA0 /* NSString+BDBOAuth1Manager.m */; };
+		C7C95124FF12DBD150D942367727A376 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783C823824DE348CC810BC37C38522B /* Keychain.swift */; };
+		CA34502D953403367D86F5B3EC4C5AF7 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DDC9A3EB5BB7C030DA4DE7DCFBE75F /* OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAA7BC60E99C9FF4DBF202AE1A493BE0 /* OAuth2CodeGrantBasicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E2CCB95CB3024F67706C73B7D50189 /* OAuth2CodeGrantBasicAuth.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB020089EA879BF2DA9FF97BAFE42D70 /* Response.swift */; };
+		CCD1900F65E518B2F14B73C668BBF576 /* OAuth2Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4B7FD69B852CCED03148AD3546E26 /* OAuth2Error.swift */; };
+		CD24C15797F831ACE809757A184A4223 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F23543837AAEA788F7BE2DFAE033D /* OAuth2Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF27A0886406E6AE26C57853678C63CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		CFCB01B26F317ADCB5DCCB19127D6320 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3744CA4599E47E601A1A3800B68512B0 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCB01B26F317ADCB5DCCB19127D6320 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0495D8472A2C5906AB010EBEC9999912 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFD0385189525BD4F95AB2CC4C9916F6 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C09B94F19533FBD391278CB20185D /* AFNetworking.framework */; };
-		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C58898F9E1FB7F60AC3C19F73E049E1C /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D335B82A0A6F73261354D9CF912D28FA /* OAuthSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 269B846892EA9AD8B4397CE91A701DC6 /* OAuthSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = AF47DBF824231AAB382BA29283AE7B44 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D335B82A0A6F73261354D9CF912D28FA /* OAuthSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7021CBF059F4B0C2FB4B8EA0FB28B6E3 /* OAuthSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3E018F3E8BD20859ADC670982D31CAC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FAA0021A438ADB46CD905025FCC41 /* SafariServices.framework */; };
-		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5996F17E03ED2409EBE7120FD0D6C3 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3F41963BC9A723B8C66A8FAEF68FFAC /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628F268AEB671BFFFC94921EB51D1CF /* OAuthWebViewController.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D72CF4C736284B0DF04CDDD50E3BCA1D /* OAuth2ClientCredentialsReddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0118F915E1AB5CC5757FB19CF2E49C /* OAuth2ClientCredentialsReddit.swift */; };
-		DA2EC29B05EF9E9F8FB8C1EC4E8A8040 /* OAuth2CodeGrantLinkedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69CC3F68BA68360099440CC5F8BF567 /* OAuth2CodeGrantLinkedIn.swift */; };
-		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2949FA18238D04E08E1871FBAB71D6 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBE1CFE20CC4F68925C21CE2B5282654 /* OAuth2CodeGrantNoTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251046C7EAE579AEB00328760BD9B17 /* OAuth2CodeGrantNoTokenType.swift */; };
-		DD222975360C0AED895BC4ADE2F29D44 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA085AB9F044E2D3461558CFBB49E7E /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4723A290A5216DEDF87A894DEE23DA7 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F41963BC9A723B8C66A8FAEF68FFAC /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601AE7BE833269FB6E0FF9CC9BE47E9D /* OAuthWebViewController.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D72CF4C736284B0DF04CDDD50E3BCA1D /* OAuth2ClientCredentialsReddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9FC206138AD8B2131058A4C6AA76A /* OAuth2ClientCredentialsReddit.swift */; };
+		DA2EC29B05EF9E9F8FB8C1EC4E8A8040 /* OAuth2CodeGrantLinkedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E12037109FE6F7608997DD321EF7E /* OAuth2CodeGrantLinkedIn.swift */; };
+		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 104051A07A9EFB9ED122081314A30E3E /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE1CFE20CC4F68925C21CE2B5282654 /* OAuth2CodeGrantNoTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE99C82E2411C9631956C52DB0665E /* OAuth2CodeGrantNoTokenType.swift */; };
+		DD222975360C0AED895BC4ADE2F29D44 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5A9E06284A120BE3445ED9452946E3 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD2A5D7EAD03CF6D671E65781167984C /* Pods-MapDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D726183A3EF6D1337730427A86E72438 /* Pods-MapDemo-dummy.m */; };
-		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = AC44D93736A58DE254318CA651DBCBBF /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6684D5A269E6B800A313E47C0E000F2 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A34F20E675F8E188237EB16E595FC /* OAuth2.swift */; };
+		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = CD33C7CEFBFA3A4E003CF8114DC66D3B /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6684D5A269E6B800A313E47C0E000F2 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76169FC677532A9DFD935F34BF87FFA /* OAuth2.swift */; };
 		E7B78E29FAA7FEB0C0851472C0BD7F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */; };
-		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 44718CE02A91D179370F5C2F17228941 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423658DDF09F78C83DC7CD467035FDCB /* Notifications.swift */; };
-		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D332E536E16EBB5EDFD5E5EAB949087 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0CEC75CA90D933F05F33ED983B2ACAE /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B8A6F941049814AB9467B59F28D036 /* BDBOAuth1RequestSerializer.m */; };
-		F105F75317F63D2ED2A2F40520AD76C9 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76D5B84A97927CBCAD6197CE5B8006 /* OAuthSwiftClient.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FB2A9D956C22B4F14ABE782EC8FD37 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863476C22E6149CD9742213C193C791 /* Notifications.swift */; };
+		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142DE2BB9599710CBB0E2BD0738F198 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CEC75CA90D933F05F33ED983B2ACAE /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D39F196FF04D864129CD06760E572BA /* BDBOAuth1RequestSerializer.m */; };
+		F105F75317F63D2ED2A2F40520AD76C9 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF790026BE4DBCD11066F5A2C54A3E9 /* OAuthSwiftClient.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3419E7A6F87D6B7EFFA599F664B8063 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0340BF2C8C88FB13A50CFC5C2886E4F /* MobileCoreServices.framework */; };
-		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E479543D9D76FBC31556B5B032A3C0D2 /* GTMSessionUploadFetcher.m */; };
-		F65D2A6D1304460EEEAE6CD9C5527432 /* Collection+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC41A21128D37A4B5393D15E1AB5A2E /* Collection+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24903CF135FF351E5A54FFA159832841 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97879BD8B896DC27A668036BDF8E7231 /* Alamofire.swift */; };
-		FA5073E3D9832561F282C8B25A93EFB9 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA212FEEB2488B077DC59B9EFF985182 /* Dictionary+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FC7976248BE57A9A005FA6095B0DEC52 /* p2.OAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAD077E4E418AD1676E2147692FED2 /* p2.OAuth2-dummy.m */; };
+		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391289F3E43CFA227F026090A144181 /* GTMSessionUploadFetcher.m */; };
+		F65D2A6D1304460EEEAE6CD9C5527432 /* Collection+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5038C79FD94C6F34EC01467704017 /* Collection+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AD92A6C3299577B17D6D39B581310 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39C91B590230DD11990FF49149F02B /* Alamofire.swift */; };
+		FA5073E3D9832561F282C8B25A93EFB9 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD02A924E786AA93F327CE2A5A3BE06F /* Dictionary+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FC7976248BE57A9A005FA6095B0DEC52 /* p2.OAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEDAD44C6D9BE81649FA166A752D775 /* p2.OAuth2-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,197 +208,198 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C9D974C72FAC0DB43CF95DF8395DCE /* OAuth2Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Requestable.swift; path = Sources/Base/OAuth2Requestable.swift; sourceTree = "<group>"; };
-		03F2ED9A90DFEBEB7D14E81C11F5C6E6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		00E707FA41BEC4A277DC7FBF64D82850 /* OAuth2PasswordGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2PasswordGrant.swift; path = Sources/Flows/OAuth2PasswordGrant.swift; sourceTree = "<group>"; };
+		0131112E3065CEF939AF2E3BB4E9AC29 /* OAuth2AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthRequest.swift; path = Sources/Base/OAuth2AuthRequest.swift; sourceTree = "<group>"; };
 		040C09B94F19533FBD391278CB20185D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04CF18DAE98D230DE007D469C5706028 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
-		0517C5CEBDFF13627ADF4A1E28E0044A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		064981819F94541C3EE7812033EF7670 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
-		0ABCD39732F2971DFF6F2B22C6819B26 /* OAuth2Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Logger.swift; path = Sources/Base/OAuth2Logger.swift; sourceTree = "<group>"; };
+		0495D8472A2C5906AB010EBEC9999912 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		078C65D57B69DD4AF92067BC98434C6B /* OAuthSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuthSwift-dummy.m"; sourceTree = "<group>"; };
+		08CE99C82E2411C9631956C52DB0665E /* OAuth2CodeGrantNoTokenType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantNoTokenType.swift; path = Sources/Flows/OAuth2CodeGrantNoTokenType.swift; sourceTree = "<group>"; };
+		0A24F9D9131237AD17FC182EAC3A6039 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		0BD13795CBF696F0F377779A5C76989F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0BEBA633115BAB0EFCD02ABA350826BC /* NSString+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
+		0E81C4012F54A254A43D19DFE3AE8846 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
 		0FE84AC7588681E676219797C7DC472C /* Pods-MapDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MapDemo.modulemap"; sourceTree = "<group>"; };
-		16E9AA7EF0465ADDE87338CA53A40417 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftCredential.swift; path = Sources/OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		104051A07A9EFB9ED122081314A30E3E /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		10E466D7FD6006BD4B61583D33FE7735 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		1301AEF9A7A058E8056355DBFEFFC8FA /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		13E2CCB95CB3024F67706C73B7D50189 /* OAuth2CodeGrantBasicAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantBasicAuth.swift; path = Sources/Flows/OAuth2CodeGrantBasicAuth.swift; sourceTree = "<group>"; };
+		146F73E004D1FC60561D4BCBAD9D533D /* OAuth2DynReg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DynReg.swift; path = Sources/Flows/OAuth2DynReg.swift; sourceTree = "<group>"; };
+		148BB2F51D278525CE59C7DD6CEAE4DE /* BDBOAuth1Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDBOAuth1Manager-dummy.m"; sourceTree = "<group>"; };
 		175554313F36135E73AA35EEE9741B0B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		179BCA4C0E02B2421100B427196A02C0 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		1979BAAA6D48E4196E76BFEB3CB930FF /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		19DC5D84583278B08063EF31A442DD78 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19F87140EDDDFE9D90DBF2DC9D387D69 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		1A8652422A46FE0DACE4FBB5B8E3BEEC /* NSString+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
-		1B56A7FA8BC756B487980A6D90A69678 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1ACE82A6092255DE88AF2CA28A04BEB0 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1B817365AEEA819CFF372BBAF771CCD9 /* p2.OAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-prefix.pch"; sourceTree = "<group>"; };
+		1BA17BB2CA9DDF14EF63DE96C38E9137 /* BDBOAuth1RequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestSerializer.h; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.h; sourceTree = "<group>"; };
+		1BE83701889CBB774F5805FB68E1AC4A /* OAuth2AuthConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthConfig.swift; path = Sources/Base/OAuth2AuthConfig.swift; sourceTree = "<group>"; };
 		1C948519F7BADB837191D7579C12CC7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CB99649E946A4096D1D72B3C5AC6FA2 /* OAuthSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAuthSwift.xcconfig; sourceTree = "<group>"; };
+		1D2B5C733790FECE121BC67658566361 /* OAuth2Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Response.swift; path = Sources/Base/OAuth2Response.swift; sourceTree = "<group>"; };
+		1D530E799872723D91B8FE46258BC84E /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftCredential.swift; path = Sources/OAuthSwiftCredential.swift; sourceTree = "<group>"; };
 		1E29A49B00027CC6E73070FA4CF41BC5 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21EB7E6C9DE8CDA719999F3E0513C8DC /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		23CF682F215C22434F51BB21F3186D6E /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		24903CF135FF351E5A54FFA159832841 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		24D5D78B39A0DD3DC666BB1B35BB3105 /* NSString+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
-		24FC72911E76BC95A24B085DEDAC0269 /* Objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Objc.swift; path = Sources/Objc.swift; sourceTree = "<group>"; };
-		257B37D4BAFC60249FBF0CA05B05A633 /* OAuth1Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth1Swift.swift; path = Sources/OAuth1Swift.swift; sourceTree = "<group>"; };
-		269B846892EA9AD8B4397CE91A701DC6 /* OAuthSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-umbrella.h"; sourceTree = "<group>"; };
-		27E62193EBB83DC6061F31B3F8B49442 /* OAuthSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuthSwift-dummy.m"; sourceTree = "<group>"; };
-		293D0A87509075EE01EE0F50E58424C9 /* BDBOAuth1Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDBOAuth1Manager.xcconfig; sourceTree = "<group>"; };
-		2988F39582C5E9702145053632315E7B /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = SwiftKeychain/Keychain/Keychain.swift; sourceTree = "<group>"; };
-		29D14887CE8DB27B59C967983BFC3769 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		2AEC1A2F7388FBD0F9AABC2309AF20B2 /* OAuth2Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Response.swift; path = Sources/Base/OAuth2Response.swift; sourceTree = "<group>"; };
-		30438467C344DBA75A24CF8F21CF7CA5 /* OAuth2Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Base.swift; path = Sources/Base/OAuth2Base.swift; sourceTree = "<group>"; };
+		1EA30FA6168C362D9A05F76ECF168B2F /* OAuth2ClientCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentials.swift; path = Sources/Flows/OAuth2ClientCredentials.swift; sourceTree = "<group>"; };
+		21101EC90B190A47EEED9BDCB1E729F7 /* p2.OAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-umbrella.h"; sourceTree = "<group>"; };
+		2200429AACAA988ECBBC550EF09C607B /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		22D97D9CB051D8FC456FE7748D8DDD65 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		246279B4BAEED47D8C8AC41F9CDD8208 /* OAuth2DataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DataRequest.swift; path = Sources/DataLoader/OAuth2DataRequest.swift; sourceTree = "<group>"; };
+		268414577AF27AE6E25DB8F779CCE5C2 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		282B121D79834B0083835AB000C46158 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		29A5038C79FD94C6F34EC01467704017 /* Collection+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+OAuthSwift.swift"; path = "Sources/Collection+OAuthSwift.swift"; sourceTree = "<group>"; };
+		2A9FD26A0E4C570012FE856212C77D44 /* OAuth2Authorizer+iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OAuth2Authorizer+iOS.swift"; path = "Sources/iOS/OAuth2Authorizer+iOS.swift"; sourceTree = "<group>"; };
+		2C54704E02D860DB7836DA2472366B7A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2F0BDBCD974CCA92AB8FD89FE837C70C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3142DE2BB9599710CBB0E2BD0738F198 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		32E0FCF77D41D6AD391EB2A377AE1A94 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		3370B6855F3096EB66A173E72ED03ECB /* Pods-MapDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3511993ABD1FDB41E2645B16C06B3D57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35F53A114E2A8ADA598463622C87136E /* BDBOAuth1SessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1SessionManager.m; path = BDBOAuth1Manager/BDBOAuth1SessionManager.m; sourceTree = "<group>"; };
-		3728B7EE48446A3A54B75D08607C74C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		372BA49002DBA67A151DB5ADA86A1730 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		3744CA4599E47E601A1A3800B68512B0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		3875502EFCA813C5C59A26C8CD63FF4A /* OAuth2DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DataLoader.swift; path = Sources/DataLoader/OAuth2DataLoader.swift; sourceTree = "<group>"; };
-		38BA22F07B2345632DF440B188366126 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		398AB7417A567DFF3EE2C08CBD498667 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3639C90F4C44BC99DEFC2805E3FF2608 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		363AD92A6C3299577B17D6D39B581310 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		37190C64FDBA6B2A60CD9FA5B53E029B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		37DDC9A3EB5BB7C030DA4DE7DCFBE75F /* OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwift.swift; path = Sources/OAuthSwift.swift; sourceTree = "<group>"; };
+		37F805D37FB6FE498ED4C13D23546376 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		38FD890040A8E82739455FE2D3CB0E9E /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
 		399F5B8E3377A8557D542B5D9167D460 /* Pods_MapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapDemo.framework; path = "Pods-MapDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4059AF7FE3CB5AEC81CAF87153D2EA /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		3B8FDC8410EE459C789F5F38EC138D6B /* BDBOAuth1Manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDBOAuth1Manager-umbrella.h"; sourceTree = "<group>"; };
-		3C2F47E1D1B699369027C05C11C69955 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftHTTPRequest.swift; path = Sources/OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
-		3CA085AB9F044E2D3461558CFBB49E7E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		3D4C859852E22DCF6B8361C683DF1DCE /* NSDictionary+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
-		3DAFBC730F73C33DB25F330C8FE2B5A7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		3FCD3187C1A7C5EA037E7F56FB62F772 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		423658DDF09F78C83DC7CD467035FDCB /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		446485E1B5BDF840CCA37D59B7FEEBBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44718CE02A91D179370F5C2F17228941 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
-		460A172B721F8BC5BA2A5C33788D581E /* OAuth2PasswordGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2PasswordGrant.swift; path = Sources/Flows/OAuth2PasswordGrant.swift; sourceTree = "<group>"; };
-		461B4377EB068FA7796C00C2D12B7181 /* OAuth2KeychainAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2KeychainAccount.swift; path = Sources/Base/OAuth2KeychainAccount.swift; sourceTree = "<group>"; };
-		4830DFBBBDECCEE518F78F23DC4C1612 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		48E1427B2A3093D33EBF999FD879D147 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		491A34F20E675F8E188237EB16E595FC /* OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2.swift; path = Sources/Flows/OAuth2.swift; sourceTree = "<group>"; };
-		4B76D5B84A97927CBCAD6197CE5B8006 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftClient.swift; path = Sources/OAuthSwiftClient.swift; sourceTree = "<group>"; };
-		4D332E536E16EBB5EDFD5E5EAB949087 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
-		4E66183DABE024C13A66F153114B104F /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
-		4E8DC399F5D7605570DB0A64D8D25001 /* OAuth2DataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DataRequest.swift; path = Sources/DataLoader/OAuth2DataRequest.swift; sourceTree = "<group>"; };
-		50B4DBEC265366EFFDF2D5EF4EC8E096 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		530FFAF339AFEFFCA9B2414B49C93EF2 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		3B743199B38B4B471EA224E8DA9EE4E6 /* Objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Objc.swift; path = Sources/Objc.swift; sourceTree = "<group>"; };
+		3BC829ABA4B53C1657E3B06988C9A4AB /* OAuthSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAuthSwift.xcconfig; sourceTree = "<group>"; };
+		3CBC68C8FC814B675FFCEFDD3F927C8D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		3F2B292E6042B6B06CA60979ACBEB8D9 /* OAuth2RequestPerformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2RequestPerformer.swift; path = Sources/Base/OAuth2RequestPerformer.swift; sourceTree = "<group>"; };
+		40D2A29D8E402D033FABAE44C60CC3C3 /* NSDictionary+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
+		41027CFDAD38FBB013DAC85F726A97D4 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		4372E4FA4D42A561B121D6F9FB9FDC5B /* p2.OAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = p2.OAuth2.xcconfig; sourceTree = "<group>"; };
+		44A6F66DA39D5BB4FAAF292691B52D2B /* OAuth2CodeGrantFacebook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantFacebook.swift; path = Sources/Flows/OAuth2CodeGrantFacebook.swift; sourceTree = "<group>"; };
+		44CC46329F1C087F6B42DFA0FE536430 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		453D9A70BBFDBF5D3F90BA5123FC449B /* Data+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+OAuthSwift.swift"; path = "Sources/Data+OAuthSwift.swift"; sourceTree = "<group>"; };
+		458995CACA1C35232D4D250B46732678 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		4FD3FA241700EBDCB016DCE29C9A665E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AB3FA8E4A800FCC6992A81874D04F9 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		51CDACDE630491FE852636AE2CD119BF /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
 		54EB06B2D87AF14B14219FF7E9867F59 /* BDBOAuth1Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDBOAuth1Manager.framework; path = BDBOAuth1Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		586858C7A01574D36908ED2EAC372F6F /* BDBOAuth1SessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1SessionManager.h; path = BDBOAuth1Manager/BDBOAuth1SessionManager.h; sourceTree = "<group>"; };
-		58B6A9B29CB6255F6C539EA5BD508C09 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		58EE71E03E170A2D57DD8FB0A41BBAEB /* OAuth2Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Error.swift; path = Sources/Base/OAuth2Error.swift; sourceTree = "<group>"; };
+		553478D475A4D6728B4A9E852A4CFF96 /* BDBOAuth1SessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1SessionManager.h; path = BDBOAuth1Manager/BDBOAuth1SessionManager.h; sourceTree = "<group>"; };
+		57413BBC4CCB5EC6F28A668F221E5B70 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5843CE3B081946099CECF1BA14731E1C /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+OAuthSwift.swift"; path = "Sources/Int+OAuthSwift.swift"; sourceTree = "<group>"; };
 		590FAA0021A438ADB46CD905025FCC41 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
-		5BD4E04B8AE4FEF553D3CE0B8D4AC7DA /* BDBOAuth1Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDBOAuth1Manager-dummy.m"; sourceTree = "<group>"; };
-		5C9F51B5EC90DF0C58F3814BE5D9D02A /* extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = Sources/Base/extensions.swift; sourceTree = "<group>"; };
+		596F19015B762DC9B5B7AF7DC3567681 /* BDBOAuth1Manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDBOAuth1Manager-umbrella.h"; sourceTree = "<group>"; };
+		5C39C91B590230DD11990FF49149F02B /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5CE0E8D6780209B8DF5ED22FE5D2AAEF /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5CF790026BE4DBCD11066F5A2C54A3E9 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftClient.swift; path = Sources/OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		5DBE66CF15D75DAF298F477F6EA8ED92 /* NSError+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+OAuthSwift.swift"; path = "Sources/NSError+OAuthSwift.swift"; sourceTree = "<group>"; };
+		5EFCBC679985AA02E65DDC19050AD414 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		5FDDD6FC8D2C864DC25A50473D488095 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		5FEE3ED21F8F7DBE8AFC68975B1A66F8 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60AAF2CCA4DF1FDA501D51AA2233B559 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		601AE7BE833269FB6E0FF9CC9BE47E9D /* OAuthWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthWebViewController.swift; path = Sources/OAuthWebViewController.swift; sourceTree = "<group>"; };
+		60239064FEA1153D16C5F9665884FBAF /* OAuth2CodeGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrant.swift; path = Sources/Flows/OAuth2CodeGrant.swift; sourceTree = "<group>"; };
+		607E12037109FE6F7608997DD321EF7E /* OAuth2CodeGrantLinkedIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantLinkedIn.swift; path = Sources/Flows/OAuth2CodeGrantLinkedIn.swift; sourceTree = "<group>"; };
+		62DFD1AE7DF281D2B1CB7073730215BC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		64A6C98E5C2738215E67653EF6044FEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		65A3EBE2CCE0B62B7D30D3DE53585373 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		6628F268AEB671BFFFC94921EB51D1CF /* OAuthWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthWebViewController.swift; path = Sources/OAuthWebViewController.swift; sourceTree = "<group>"; };
-		67803B3B55FCC2FB2305C41DBD1B0EEC /* OAuth2DynReg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DynReg.swift; path = Sources/Flows/OAuth2DynReg.swift; sourceTree = "<group>"; };
-		679F7701912EF4761ED8D56B668B6BE1 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		6860CB61D68CFA35A98A8696833E66ED /* OAuth2ClientConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientConfig.swift; path = Sources/Base/OAuth2ClientConfig.swift; sourceTree = "<group>"; };
-		69312006595FB4D8D9B61F6016490F63 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
-		6A1A18A9176824A35A1AF6C6164AC0F2 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
-		6D24232335C402B4F751F9B6A70B6510 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		6D30FF4DF1147F015038A5A3782A749E /* OAuth2CodeGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrant.swift; path = Sources/Flows/OAuth2CodeGrant.swift; sourceTree = "<group>"; };
-		6F028E8678A9CF278320D2F2D6F97D0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		712D34B54FFB248284F4374A590163F0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		726296C964E615072806FA3223B4B724 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+OAuthSwift.swift"; path = "Sources/String+OAuthSwift.swift"; sourceTree = "<group>"; };
-		72B8A6F941049814AB9467B59F28D036 /* BDBOAuth1RequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestSerializer.m; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.m; sourceTree = "<group>"; };
+		68240A5967738EAEAF05AB69AA6079A1 /* extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = Sources/Base/extensions.swift; sourceTree = "<group>"; };
+		6F33D74D48B410D01DC79245DADBA2A1 /* OAuth2ClientConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientConfig.swift; path = Sources/Base/OAuth2ClientConfig.swift; sourceTree = "<group>"; };
+		7021CBF059F4B0C2FB4B8EA0FB28B6E3 /* OAuthSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-umbrella.h"; sourceTree = "<group>"; };
+		72A1C3B7F6B3172252D376A258540578 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		72C4B7FD69B852CCED03148AD3546E26 /* OAuth2Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Error.swift; path = Sources/Base/OAuth2Error.swift; sourceTree = "<group>"; };
 		73CCF3E59A0AF612DD46F5A99DDBFF16 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73E171C4EA34215415C43D94AD953D0B /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
-		748A8F4D4B8EF55A65A8F85227657731 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		75AF77E5F816F053FE05654B5772D2D5 /* OAuthSwiftResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftResponse.swift; path = Sources/OAuthSwiftResponse.swift; sourceTree = "<group>"; };
-		761B433D2EA346C207E1A5B043209FE4 /* BDBOAuth1Manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BDBOAuth1Manager.modulemap; sourceTree = "<group>"; };
-		7808DA6031502B73AC1E3CB970AEC486 /* OAuth2Securable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Securable.swift; path = Sources/Base/OAuth2Securable.swift; sourceTree = "<group>"; };
-		78CF6592A9FA116D276A1027DD1176C1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		7A5CA0526835D18D2927739F1477EFC4 /* BDBOAuth1Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDBOAuth1Manager-prefix.pch"; sourceTree = "<group>"; };
-		7A8D8DEAF41FF10F534A201A77ADF343 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		75B48A8D838B66670F9810661299A6C6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7873EF638BFF09EDB286EDD53E835F6B /* OAuth2Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Base.swift; path = Sources/Base/OAuth2Base.swift; sourceTree = "<group>"; };
+		792810AD486B6C346E9AA2B5C3D02E36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C44E89EDCE2C4FA33E8BEB61E3EA494 /* Pods-MapDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		80AC9C5D22A29E692E7EF924AC8F408D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		83694DC72B41610F491A9C3AB0290414 /* OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwift.swift; path = Sources/OAuthSwift.swift; sourceTree = "<group>"; };
-		85788D4B928AADB6D4397F89095A9151 /* OAuth2RequestPerformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2RequestPerformer.swift; path = Sources/Base/OAuth2RequestPerformer.swift; sourceTree = "<group>"; };
-		85D17201DB633E727ACB26DEE17AF577 /* OAuth2WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2WebViewController.swift; path = Sources/iOS/OAuth2WebViewController.swift; sourceTree = "<group>"; };
-		866AA50B05BAB8A007BC4932D18239DA /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		881DC02C4DC7F4D236CAEAD69EA75EE1 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		8B7C6DF6921DC326E8F3A038B21D50CE /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		8C6688FBDDAF958657F5BA285C531A78 /* Data+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+OAuthSwift.swift"; path = "Sources/Data+OAuthSwift.swift"; sourceTree = "<group>"; };
-		8F49771497DE2C256C2ACCE1D3144DAB /* NSDictionary+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
-		9078234423AEB6BFD7844F6F2127B7DF /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		7DA35CC955AB5D4F673562B4EB9B746A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		823F5EEC8198B02CD9FAB60697A745D9 /* OAuth2Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Requestable.swift; path = Sources/Base/OAuth2Requestable.swift; sourceTree = "<group>"; };
+		82FB2A9D956C22B4F14ABE782EC8FD37 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		861C736C9264F38D5C9B2A7149C6647D /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		8AAA93BB33FE5858032CBE401679230B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8E1E4A5DE0C20BD349D3269A848EF9B7 /* p2.OAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = p2.OAuth2.modulemap; sourceTree = "<group>"; };
 		91E54A69532D8128579692E97EBEA3DA /* p2_OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = p2_OAuth2.framework; path = p2.OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923198940873D65B413A5DB7BEBA197E /* OAuth2Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Logger.swift; path = Sources/Base/OAuth2Logger.swift; sourceTree = "<group>"; };
+		92793108C3A2452C125A6E73E6B85AA0 /* NSString+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
+		928E87B0E249EEAD9559C27AD75DF312 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		92F64CBE444B39C5D42842B498C964AD /* Pods-MapDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapDemo-resources.sh"; sourceTree = "<group>"; };
+		9304449B2F566AB7A54C16F3A2760856 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		9391289F3E43CFA227F026090A144181 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9528268176389D5FF99BD691690C2FFB /* p2.OAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-prefix.pch"; sourceTree = "<group>"; };
-		97879BD8B896DC27A668036BDF8E7231 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		9A2D5BD4B5D771636DD59A12919500E5 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
-		9A428BBE2320B428A11A592858E628FE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		9B975365B57E01C4DF5837FBC7308358 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BDB73232670CC624AB573AAF892776A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		9D2949FA18238D04E08E1871FBAB71D6 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
-		9EB6778AC866C308EE51728032A84FCB /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+OAuthSwift.swift"; path = "Sources/UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
-		9F081230DD4B0A8B35372AC52FDD3FB3 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		9F0F2CDFF46CA6B28F9561F37F95998B /* OAuth2AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthRequest.swift; path = Sources/Base/OAuth2AuthRequest.swift; sourceTree = "<group>"; };
-		9F69A8FA255015A9B20BEE7680B2B15A /* OAuth2Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Swift.swift; path = Sources/OAuth2Swift.swift; sourceTree = "<group>"; };
-		9FA7D7CA6F8F9CAB7B2A5AA815CF2DEF /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
-		A20AFEA749441164E61F37B163448103 /* OAuthSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OAuthSwift.modulemap; sourceTree = "<group>"; };
-		A2F4E945AED61AAEFE7A08A43733B725 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		95035E2DDAFB4D221202C7122EB8CC54 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		9516A1414300BD2B0AAF891D257F2B2A /* OAuthSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OAuthSwift.modulemap; sourceTree = "<group>"; };
+		957EFB159ED2A7ED86782DB59F67C3B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BA73B1C9A73553B1D34524F96E0383 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		95EC3449B08298CD44DF96EA61B53846 /* OAuth2ImplicitGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ImplicitGrant.swift; path = Sources/Flows/OAuth2ImplicitGrant.swift; sourceTree = "<group>"; };
+		97D4FE1C97189F58731316AF81D17183 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFE2EA33B50DB70C2BDD17280116752 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9CA58DF5AAAE6DD7A72A0EC7CF06EE03 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		9D39F196FF04D864129CD06760E572BA /* BDBOAuth1RequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestSerializer.m; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.m; sourceTree = "<group>"; };
+		A26E40A076B02670EA385100C36859A5 /* OAuthSwiftError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftError.swift; path = Sources/OAuthSwiftError.swift; sourceTree = "<group>"; };
+		A354D335E62D3DDFD2927E9675A1A72F /* OAuthSwiftResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftResponse.swift; path = Sources/OAuthSwiftResponse.swift; sourceTree = "<group>"; };
 		A5C001970241A150D4EAC4693C827B1A /* Pods-MapDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapDemo-umbrella.h"; sourceTree = "<group>"; };
-		A60750524725868556DB1810A25037B3 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		A694E3610691EFDCA446F24B719C528E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		A9A44B5EEAB6B3142ACC62F45C9D3CA4 /* OAuth2ImplicitGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ImplicitGrant.swift; path = Sources/Flows/OAuth2ImplicitGrant.swift; sourceTree = "<group>"; };
-		AA0EC741712579DD7D010F8D1BFFC8BC /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
-		AC0118F915E1AB5CC5757FB19CF2E49C /* OAuth2ClientCredentialsReddit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentialsReddit.swift; path = Sources/Flows/OAuth2ClientCredentialsReddit.swift; sourceTree = "<group>"; };
-		AC44D93736A58DE254318CA651DBCBBF /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
-		B02210547CB9DB6C959961BF6FD08992 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		A709FB87430EEFB1A94A0F834EE9174E /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		A7133C0E7B0B1940275BFE49C2BE5D72 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A79AC55315B1C273C39BFD5DE84B36D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A863476C22E6149CD9742213C193C791 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A9C898783DCA24AD43DAAF4D9A4C47A7 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		AAE0C8844725A1A3D22FEBA56A35C7CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB049571D47429FD4C728CFA4B3D83FB /* OAuth2AuthorizerUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthorizerUI.swift; path = Sources/Base/OAuth2AuthorizerUI.swift; sourceTree = "<group>"; };
+		ABAC8E5816180A98247D8B03D8A3971B /* OAuth2Securable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Securable.swift; path = Sources/Base/OAuth2Securable.swift; sourceTree = "<group>"; };
+		ACEC8AC443307AB296111C5175E3579C /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+OAuthSwift.swift"; path = "Sources/UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AD11C4638F161E791E57A40D3C524C5D /* OAuth2KeychainAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2KeychainAccount.swift; path = Sources/Base/OAuth2KeychainAccount.swift; sourceTree = "<group>"; };
+		AF47DBF824231AAB382BA29283AE7B44 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		AFB37B49485BDC0729DC531B7046938C /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		AFE7F578E34A0FC60D9060031FED60C8 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
 		B0340BF2C8C88FB13A50CFC5C2886E4F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		B06317AC8C03E271D05D3C0A087E6B4E /* OAuth2Authorizer+iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OAuth2Authorizer+iOS.swift"; path = "Sources/iOS/OAuth2Authorizer+iOS.swift"; sourceTree = "<group>"; };
-		B1EF83AC92E89E48B25263B78FF5581A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B251046C7EAE579AEB00328760BD9B17 /* OAuth2CodeGrantNoTokenType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantNoTokenType.swift; path = Sources/Flows/OAuth2CodeGrantNoTokenType.swift; sourceTree = "<group>"; };
-		B3115BB3937367C86B19C72AF95DFA76 /* p2.OAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = p2.OAuth2.xcconfig; sourceTree = "<group>"; };
-		B763C682FEC1FE7365725E013123D028 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		B0ADC6D6AAEB7A32215ACD27CD9ABBE3 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		B0B1F14B1325837BA47F5B5AA0F70F90 /* BDBOAuth1Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDBOAuth1Manager-prefix.pch"; sourceTree = "<group>"; };
+		B11B3C0F0E6A45710D0C357C149F31D1 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		B23A0B24B07FA3D60D3B06B702EB4793 /* URL+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+OAuthSwift.swift"; path = "Sources/URL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		B26A64085741F11FE2C9A229B342026F /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		B499EF144B39490CDDACA2F7CFE75863 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		B5EA865D64FF10D2C24C453E508BDECC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		B82EB8548069B2007F25FBCE1A9F2428 /* Pods-MapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B939ADA509DCED041A090CAA0D7DA1B9 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
-		B9728823F2B7C3A88222F8E4B1463F2A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		BA212FEEB2488B077DC59B9EFF985182 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+OAuthSwift.swift"; path = "Sources/Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
-		BA80348F80668737198AE8C6FE478183 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
-		BC5996F17E03ED2409EBE7120FD0D6C3 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
-		BD0658E22F91D148B3E8D29FB0434C55 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		BD65EC088C4D560437E4DAB038752D19 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		C0B285C99B93440EFBEB00DBE24D438E /* OAuth2DebugURLSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DebugURLSessionDelegate.swift; path = Sources/Base/OAuth2DebugURLSessionDelegate.swift; sourceTree = "<group>"; };
-		C121AD3E8DE015AE55B20AA967485F30 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B994773F1B0AEF993A90658E870CED4A /* OAuth2WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2WebViewController.swift; path = Sources/iOS/OAuth2WebViewController.swift; sourceTree = "<group>"; };
+		BABF46A77A172D5C92473E4D72089FEC /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		BB1E1E268A2F0F7065E2E81507A66AA0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BB5B4DC87B8F87F17D7FB170ED200751 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		BC8A9D5DCF2A5D8C502912DF73855108 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		BE13535532664BFDEE911E25A04A8EC1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		BEDF3EB29A6183CBAD7BAC06094E180A /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		C1B5C559587100F931C0E3A5386C008F /* OAuthSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-prefix.pch"; sourceTree = "<group>"; };
 		C2177CDCDC2DEC305A4492D3310556DF /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C58898F9E1FB7F60AC3C19F73E049E1C /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		C641202E047F9A0550218E5FDD10F516 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
-		C69B6A6A3B3F4B9ADB391864F72AB830 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		C6F62282F591AD4B861C136555D01D9F /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
-		C904AB3A78E09883E4D2C730B78864BB /* URL+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+OAuthSwift.swift"; path = "Sources/URL+OAuthSwift.swift"; sourceTree = "<group>"; };
-		CA51E6377123B7FCF1C83B8FA0C854D5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		CCE0ACAABFF352C0D33E04136A3A050F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		CD873893F354576B07B12D85E93F2623 /* OAuthSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-prefix.pch"; sourceTree = "<group>"; };
-		CDAAD077E4E418AD1676E2147692FED2 /* p2.OAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2.OAuth2-dummy.m"; sourceTree = "<group>"; };
-		CE273BFC14CB90E346F4F2A7E6703A77 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		D1DECA5FD9D9D9F5B1E598C57C2C95FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4339FDA0169634B2A4DFAEBD876A408 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		D52B0A9A8DD4AD4C6F007609EDBC005D /* OAuth2CodeGrantBasicAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantBasicAuth.swift; path = Sources/Flows/OAuth2CodeGrantBasicAuth.swift; sourceTree = "<group>"; };
-		D63F10A3C7145270ECBC8E9BD713AEE3 /* OAuth2ClientCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentials.swift; path = Sources/Flows/OAuth2ClientCredentials.swift; sourceTree = "<group>"; };
-		D6A3BA23EC9D2D52139035B2E1289C56 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C226D8B1B0EDD17DFDEBD3F6706E868B /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftMultipartData.swift; path = Sources/OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
+		C4D5760E635F4143303C333F558D73CB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C68FB67B00FBFBA2509A4526D454F192 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		C8CB2B1F0DFB50387B4367089903C4BD /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		CBEDAD44C6D9BE81649FA166A752D775 /* p2.OAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2.OAuth2-dummy.m"; sourceTree = "<group>"; };
+		CC172BBCD1BF9185B8095FE752E2F178 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		CC3767387CAE2869113AB44291A52BF2 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CD33C7CEFBFA3A4E003CF8114DC66D3B /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		D03F23543837AAEA788F7BE2DFAE033D /* OAuth2Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Swift.swift; path = Sources/OAuth2Swift.swift; sourceTree = "<group>"; };
+		D117C330C46E014B9374C5304711BB1C /* OAuth2DebugURLSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DebugURLSessionDelegate.swift; path = Sources/Base/OAuth2DebugURLSessionDelegate.swift; sourceTree = "<group>"; };
+		D27148074530CA7AD3E28E91E5A7AEC9 /* OAuth1Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth1Swift.swift; path = Sources/OAuth1Swift.swift; sourceTree = "<group>"; };
+		D3BF32890323BD3035ACD699114C4A97 /* BDBOAuth1SessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1SessionManager.m; path = BDBOAuth1Manager/BDBOAuth1SessionManager.m; sourceTree = "<group>"; };
+		D3E7440B1AFA877FAB1806EA980DBDD1 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
+		D4DA2B7EAB9DC50AD2755246F4601489 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		D4FABC21649EE886FE3185F6DA0C12C5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		D726183A3EF6D1337730427A86E72438 /* Pods-MapDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapDemo-dummy.m"; sourceTree = "<group>"; };
-		D749F07F84950A687A26662BD985D44A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		DCF8161562A54277C21387E591C2C9DF /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
-		DD64CF6C7729B4D365F3E89D96C9C957 /* BDBOAuth1RequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestSerializer.h; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.h; sourceTree = "<group>"; };
+		D76169FC677532A9DFD935F34BF87FFA /* OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2.swift; path = Sources/Flows/OAuth2.swift; sourceTree = "<group>"; };
+		D9EC332FFAB878D521CF6448E44097E4 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		DA2C60136496ADC9F31B54902278B14F /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		DB020089EA879BF2DA9FF97BAFE42D70 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DB5A9E06284A120BE3445ED9452946E3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DBFB7C9C3F62F0430D0F945AD9E06E55 /* BDBOAuth1Manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BDBOAuth1Manager.modulemap; sourceTree = "<group>"; };
+		DC36A51D7FF103827756EC23D41E95E8 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftHTTPRequest.swift; path = Sources/OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		DCDC16AD8EB2624BB0D181CD6E701358 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+OAuthSwift.swift"; path = "Sources/String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		DD88A70551AE97F9C606EC8EAC13A733 /* NSDictionary+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
 		DEA7CF0778E3C3B6B898D2A0B16C2137 /* OAuthSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OAuthSwift.framework; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0124191989BD518F95C78B55541D79C /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		E1ACC4A326782B1216E8C23CFC57F246 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		E20497739E3AE494DAB0AEA999E460E7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		E3A1A29E5E1B155BD0CA557FAF369C44 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+OAuthSwift.swift"; path = "Sources/Int+OAuthSwift.swift"; sourceTree = "<group>"; };
-		E479543D9D76FBC31556B5B032A3C0D2 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
-		E69CC3F68BA68360099440CC5F8BF567 /* OAuth2CodeGrantLinkedIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantLinkedIn.swift; path = Sources/Flows/OAuth2CodeGrantLinkedIn.swift; sourceTree = "<group>"; };
-		E6F7C573D120D2136580575A1C4515B5 /* OAuthSwiftError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftError.swift; path = Sources/OAuthSwiftError.swift; sourceTree = "<group>"; };
-		E71368DF2C934BDE54BC7AD2318E75AD /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftMultipartData.swift; path = Sources/OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
-		E8B3616F1EFA921ABDDC2D8FE5BCD2DD /* OAuth2CodeGrantFacebook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantFacebook.swift; path = Sources/Flows/OAuth2CodeGrantFacebook.swift; sourceTree = "<group>"; };
-		E9537A87A5DA5C005651E06CB38F7B5A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		E9FBAC6D5E857C90E4B663FD729830DA /* NSError+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+OAuthSwift.swift"; path = "Sources/NSError+OAuthSwift.swift"; sourceTree = "<group>"; };
-		EA5A96BEEDE3D78FF6CF137AA1E952A8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		EDC41A21128D37A4B5393D15E1AB5A2E /* Collection+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+OAuthSwift.swift"; path = "Sources/Collection+OAuthSwift.swift"; sourceTree = "<group>"; };
+		E0A9FC206138AD8B2131058A4C6AA76A /* OAuth2ClientCredentialsReddit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentialsReddit.swift; path = Sources/Flows/OAuth2ClientCredentialsReddit.swift; sourceTree = "<group>"; };
+		E450DEF8F592856BC594A91FF293C81D /* OAuth2DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DataLoader.swift; path = Sources/DataLoader/OAuth2DataLoader.swift; sourceTree = "<group>"; };
+		E4723A290A5216DEDF87A894DEE23DA7 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		E4B6C54EE72006551B323C9EB4954448 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		E603BF0DE65E181ED2B1CA2F5FA2B728 /* BDBOAuth1Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDBOAuth1Manager.xcconfig; sourceTree = "<group>"; };
+		E623648CE390575CC019F5C295A8FE68 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftURLHandlerType.swift; path = Sources/OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		E9A7B04C688715A32846BAE3CED32682 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		EDD0681304317DE7637F5D5AE7D91730 /* Pods-MapDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapDemo-frameworks.sh"; sourceTree = "<group>"; };
-		EEFB7C693DD4D4200287DDA25CBAF2B6 /* p2.OAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-umbrella.h"; sourceTree = "<group>"; };
-		EF8AF77223AD1D9415EEB66E0E93F32C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		F0C25F7E7FC5C12A1DBE9A4114DC2E73 /* p2.OAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = p2.OAuth2.modulemap; sourceTree = "<group>"; };
+		F53A5C61E7093061F55C5CC2C3E05DB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5C1B9645F8DCF8B84FEFBC3ADF1CD60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F7E9E4A125E83B64CC924A3BF1741321 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftURLHandlerType.swift; path = Sources/OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
-		F8E85B00B2A4CD1ADFEEF2FC1E34A434 /* OAuth2AuthorizerUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthorizerUI.swift; path = Sources/Base/OAuth2AuthorizerUI.swift; sourceTree = "<group>"; };
-		F94AD47EA09B96C75E4B380F1706273A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		FCD1AD8078CDDD1C6473AAFE8BEBD7DB /* OAuth2AuthConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthConfig.swift; path = Sources/Base/OAuth2AuthConfig.swift; sourceTree = "<group>"; };
-		FE80BCE551E0EB00A7BA1ADF9912BF33 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		F5EAEF0BD7F75860FDD2A4B5261D586A /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		F783C823824DE348CC810BC37C38522B /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = SwiftKeychain/Keychain/Keychain.swift; sourceTree = "<group>"; };
+		F82B00DFF7704092531F9A3B4408B310 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F8FB4A8923677B148E54A8BFC4A1F97E /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		F9ADC5C2BF50AD98BC481F623ACD03AF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		F9DC03186C904112C403A74583D7DE88 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		FAACF1A4A5B1548AC43C725B7783DC50 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		FD02A924E786AA93F327CE2A5A3BE06F /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+OAuthSwift.swift"; path = "Sources/Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -476,114 +477,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03230ADC070D3224E72C32748D98D31B /* OAuthSwift */ = {
+		09B04FA55C0BD919F2739DF91D4832A7 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				EDC41A21128D37A4B5393D15E1AB5A2E /* Collection+OAuthSwift.swift */,
-				8C6688FBDDAF958657F5BA285C531A78 /* Data+OAuthSwift.swift */,
-				BA212FEEB2488B077DC59B9EFF985182 /* Dictionary+OAuthSwift.swift */,
-				04CF18DAE98D230DE007D469C5706028 /* HMAC.swift */,
-				E3A1A29E5E1B155BD0CA557FAF369C44 /* Int+OAuthSwift.swift */,
-				E9FBAC6D5E857C90E4B663FD729830DA /* NSError+OAuthSwift.swift */,
-				257B37D4BAFC60249FBF0CA05B05A633 /* OAuth1Swift.swift */,
-				9F69A8FA255015A9B20BEE7680B2B15A /* OAuth2Swift.swift */,
-				83694DC72B41610F491A9C3AB0290414 /* OAuthSwift.swift */,
-				4B76D5B84A97927CBCAD6197CE5B8006 /* OAuthSwiftClient.swift */,
-				16E9AA7EF0465ADDE87338CA53A40417 /* OAuthSwiftCredential.swift */,
-				E6F7C573D120D2136580575A1C4515B5 /* OAuthSwiftError.swift */,
-				3C2F47E1D1B699369027C05C11C69955 /* OAuthSwiftHTTPRequest.swift */,
-				E71368DF2C934BDE54BC7AD2318E75AD /* OAuthSwiftMultipartData.swift */,
-				75AF77E5F816F053FE05654B5772D2D5 /* OAuthSwiftResponse.swift */,
-				F7E9E4A125E83B64CC924A3BF1741321 /* OAuthSwiftURLHandlerType.swift */,
-				6628F268AEB671BFFFC94921EB51D1CF /* OAuthWebViewController.swift */,
-				24FC72911E76BC95A24B085DEDAC0269 /* Objc.swift */,
-				AA0EC741712579DD7D010F8D1BFFC8BC /* SHA1.swift */,
-				726296C964E615072806FA3223B4B724 /* String+OAuthSwift.swift */,
-				9EB6778AC866C308EE51728032A84FCB /* UIApplication+OAuthSwift.swift */,
-				C904AB3A78E09883E4D2C730B78864BB /* URL+OAuthSwift.swift */,
-				4E66183DABE024C13A66F153114B104F /* Utils.swift */,
-				F3B58666496BFD290D84B7C0ECC49084 /* Support Files */,
+				9AFE2EA33B50DB70C2BDD17280116752 /* AFSecurityPolicy.h */,
+				BB1E1E268A2F0F7065E2E81507A66AA0 /* AFSecurityPolicy.m */,
 			);
-			name = OAuthSwift;
-			path = OAuthSwift;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		1043313AF9C9F1DBBF11BD066C5AA73E /* NSString+URLArguments */ = {
+		10F5950B6853E903B641317ED1B8CBC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D2949FA18238D04E08E1871FBAB71D6 /* GTMNSString+URLArguments.h */,
-				B939ADA509DCED041A090CAA0D7DA1B9 /* GTMNSString+URLArguments.m */,
+				CC3767387CAE2869113AB44291A52BF2 /* GoogleMaps.bundle */,
 			);
-			name = "NSString+URLArguments";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		1194787C32C384C45395C2D42BF4A14A /* FirebaseInstanceID */ = {
+		19F0AF9B8DC2B207B95939219870F31D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D749F07F84950A687A26662BD985D44A /* FIRInstanceID.h */,
-				9A3154B94649EC77105ABE37225A1BF8 /* Frameworks */,
+				2200429AACAA988ECBBC550EF09C607B /* GTMSessionFetcher.h */,
+				0E81C4012F54A254A43D19DFE3AE8846 /* GTMSessionFetcher.m */,
+				C8CB2B1F0DFB50387B4367089903C4BD /* GTMSessionFetcherLogging.h */,
+				C68FB67B00FBFBA2509A4526D454F192 /* GTMSessionFetcherLogging.m */,
+				CD33C7CEFBFA3A4E003CF8114DC66D3B /* GTMSessionFetcherService.h */,
+				BC8A9D5DCF2A5D8C502912DF73855108 /* GTMSessionFetcherService.m */,
+				3142DE2BB9599710CBB0E2BD0738F198 /* GTMSessionUploadFetcher.h */,
+				9391289F3E43CFA227F026090A144181 /* GTMSessionUploadFetcher.m */,
 			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		187B9CF652D10E9FA3EC52DEBF647386 /* p2.OAuth2 */ = {
+		1A65890DEE8240BF7B2F803FC7ECAEE3 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				5C9F51B5EC90DF0C58F3814BE5D9D02A /* extensions.swift */,
-				2988F39582C5E9702145053632315E7B /* Keychain.swift */,
-				491A34F20E675F8E188237EB16E595FC /* OAuth2.swift */,
-				FCD1AD8078CDDD1C6473AAFE8BEBD7DB /* OAuth2AuthConfig.swift */,
-				B06317AC8C03E271D05D3C0A087E6B4E /* OAuth2Authorizer+iOS.swift */,
-				F8E85B00B2A4CD1ADFEEF2FC1E34A434 /* OAuth2AuthorizerUI.swift */,
-				9F0F2CDFF46CA6B28F9561F37F95998B /* OAuth2AuthRequest.swift */,
-				30438467C344DBA75A24CF8F21CF7CA5 /* OAuth2Base.swift */,
-				6860CB61D68CFA35A98A8696833E66ED /* OAuth2ClientConfig.swift */,
-				D63F10A3C7145270ECBC8E9BD713AEE3 /* OAuth2ClientCredentials.swift */,
-				AC0118F915E1AB5CC5757FB19CF2E49C /* OAuth2ClientCredentialsReddit.swift */,
-				6D30FF4DF1147F015038A5A3782A749E /* OAuth2CodeGrant.swift */,
-				D52B0A9A8DD4AD4C6F007609EDBC005D /* OAuth2CodeGrantBasicAuth.swift */,
-				E8B3616F1EFA921ABDDC2D8FE5BCD2DD /* OAuth2CodeGrantFacebook.swift */,
-				E69CC3F68BA68360099440CC5F8BF567 /* OAuth2CodeGrantLinkedIn.swift */,
-				B251046C7EAE579AEB00328760BD9B17 /* OAuth2CodeGrantNoTokenType.swift */,
-				3875502EFCA813C5C59A26C8CD63FF4A /* OAuth2DataLoader.swift */,
-				4E8DC399F5D7605570DB0A64D8D25001 /* OAuth2DataRequest.swift */,
-				C0B285C99B93440EFBEB00DBE24D438E /* OAuth2DebugURLSessionDelegate.swift */,
-				67803B3B55FCC2FB2305C41DBD1B0EEC /* OAuth2DynReg.swift */,
-				58EE71E03E170A2D57DD8FB0A41BBAEB /* OAuth2Error.swift */,
-				A9A44B5EEAB6B3142ACC62F45C9D3CA4 /* OAuth2ImplicitGrant.swift */,
-				461B4377EB068FA7796C00C2D12B7181 /* OAuth2KeychainAccount.swift */,
-				0ABCD39732F2971DFF6F2B22C6819B26 /* OAuth2Logger.swift */,
-				460A172B721F8BC5BA2A5C33788D581E /* OAuth2PasswordGrant.swift */,
-				02C9D974C72FAC0DB43CF95DF8395DCE /* OAuth2Requestable.swift */,
-				85788D4B928AADB6D4397F89095A9151 /* OAuth2RequestPerformer.swift */,
-				2AEC1A2F7388FBD0F9AABC2309AF20B2 /* OAuth2Response.swift */,
-				7808DA6031502B73AC1E3CB970AEC486 /* OAuth2Securable.swift */,
-				85D17201DB633E727ACB26DEE17AF577 /* OAuth2WebViewController.swift */,
-				927AA9E9A206ABEF55E6BFC35301DB40 /* Support Files */,
+				8AAA93BB33FE5858032CBE401679230B /* AFHTTPSessionManager.h */,
+				C4D5760E635F4143303C333F558D73CB /* AFHTTPSessionManager.m */,
+				5EFCBC679985AA02E65DDC19050AD414 /* AFURLSessionManager.h */,
+				9CA58DF5AAAE6DD7A72A0EC7CF06EE03 /* AFURLSessionManager.m */,
 			);
-			name = p2.OAuth2;
-			path = p2.OAuth2;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		1E2BFFA462D801163506376545447C78 /* Serialization */ = {
+		1DF2150707CF144C636700D50B136E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A694E3610691EFDCA446F24B719C528E /* AFURLRequestSerialization.h */,
-				C121AD3E8DE015AE55B20AA967485F30 /* AFURLRequestSerialization.m */,
-				3CA085AB9F044E2D3461558CFBB49E7E /* AFURLResponseSerialization.h */,
-				BD0658E22F91D148B3E8D29FB0434C55 /* AFURLResponseSerialization.m */,
+				BB5B4DC87B8F87F17D7FB170ED200751 /* GoogleMaps.framework */,
+				F9ADC5C2BF50AD98BC481F623ACD03AF /* GoogleMapsCore.framework */,
 			);
-			name = Serialization;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		23AFC1BD0FECF8AD2AB8F2C5CD473BA4 /* Reachability */ = {
+		1F89852DB4779E7BF0FF0A18BC551BA8 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				3744CA4599E47E601A1A3800B68512B0 /* AFNetworkReachabilityManager.h */,
-				6D24232335C402B4F751F9B6A70B6510 /* AFNetworkReachabilityManager.m */,
+				6A428684B3AEFFEE553FD2ED09846453 /* Frameworks */,
 			);
-			name = Reachability;
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		20CED046D02CABF4D7597C7D728020B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3639C90F4C44BC99DEFC2805E3FF2608 /* AFNetworking.modulemap */,
+				41027CFDAD38FBB013DAC85F726A97D4 /* AFNetworking.xcconfig */,
+				0A24F9D9131237AD17FC182EAC3A6039 /* AFNetworking-dummy.m */,
+				282B121D79834B0083835AB000C46158 /* AFNetworking-prefix.pch */,
+				BABF46A77A172D5C92473E4D72089FEC /* AFNetworking-umbrella.h */,
+				A79AC55315B1C273C39BFD5DE84B36D8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 		246DA5850EBD7FED6E938B938607CA90 /* Pods-MapDemo */ = {
@@ -604,132 +570,187 @@
 			path = "Target Support Files/Pods-MapDemo";
 			sourceTree = "<group>";
 		};
-		29DD20B9EC17AC833B9C43C85B02C63B /* Frameworks */ = {
+		24A244F0982DDA9BA8B49AC2A8901857 /* p2.OAuth2 */ = {
 			isa = PBXGroup;
 			children = (
-				A60750524725868556DB1810A25037B3 /* GoogleInterchangeUtilities.framework */,
+				68240A5967738EAEAF05AB69AA6079A1 /* extensions.swift */,
+				F783C823824DE348CC810BC37C38522B /* Keychain.swift */,
+				D76169FC677532A9DFD935F34BF87FFA /* OAuth2.swift */,
+				1BE83701889CBB774F5805FB68E1AC4A /* OAuth2AuthConfig.swift */,
+				2A9FD26A0E4C570012FE856212C77D44 /* OAuth2Authorizer+iOS.swift */,
+				AB049571D47429FD4C728CFA4B3D83FB /* OAuth2AuthorizerUI.swift */,
+				0131112E3065CEF939AF2E3BB4E9AC29 /* OAuth2AuthRequest.swift */,
+				7873EF638BFF09EDB286EDD53E835F6B /* OAuth2Base.swift */,
+				6F33D74D48B410D01DC79245DADBA2A1 /* OAuth2ClientConfig.swift */,
+				1EA30FA6168C362D9A05F76ECF168B2F /* OAuth2ClientCredentials.swift */,
+				E0A9FC206138AD8B2131058A4C6AA76A /* OAuth2ClientCredentialsReddit.swift */,
+				60239064FEA1153D16C5F9665884FBAF /* OAuth2CodeGrant.swift */,
+				13E2CCB95CB3024F67706C73B7D50189 /* OAuth2CodeGrantBasicAuth.swift */,
+				44A6F66DA39D5BB4FAAF292691B52D2B /* OAuth2CodeGrantFacebook.swift */,
+				607E12037109FE6F7608997DD321EF7E /* OAuth2CodeGrantLinkedIn.swift */,
+				08CE99C82E2411C9631956C52DB0665E /* OAuth2CodeGrantNoTokenType.swift */,
+				E450DEF8F592856BC594A91FF293C81D /* OAuth2DataLoader.swift */,
+				246279B4BAEED47D8C8AC41F9CDD8208 /* OAuth2DataRequest.swift */,
+				D117C330C46E014B9374C5304711BB1C /* OAuth2DebugURLSessionDelegate.swift */,
+				146F73E004D1FC60561D4BCBAD9D533D /* OAuth2DynReg.swift */,
+				72C4B7FD69B852CCED03148AD3546E26 /* OAuth2Error.swift */,
+				95EC3449B08298CD44DF96EA61B53846 /* OAuth2ImplicitGrant.swift */,
+				AD11C4638F161E791E57A40D3C524C5D /* OAuth2KeychainAccount.swift */,
+				923198940873D65B413A5DB7BEBA197E /* OAuth2Logger.swift */,
+				00E707FA41BEC4A277DC7FBF64D82850 /* OAuth2PasswordGrant.swift */,
+				823F5EEC8198B02CD9FAB60697A745D9 /* OAuth2Requestable.swift */,
+				3F2B292E6042B6B06CA60979ACBEB8D9 /* OAuth2RequestPerformer.swift */,
+				1D2B5C733790FECE121BC67658566361 /* OAuth2Response.swift */,
+				ABAC8E5816180A98247D8B03D8A3971B /* OAuth2Securable.swift */,
+				B994773F1B0AEF993A90658E870CED4A /* OAuth2WebViewController.swift */,
+				B449C2AABD3D56593028025853B52166 /* Support Files */,
 			);
-			name = Frameworks;
+			name = p2.OAuth2;
+			path = p2.OAuth2;
 			sourceTree = "<group>";
 		};
-		2EC132E2C43F6EE9CAE22FA446E96300 /* AFNetworking */ = {
+		2FD5D6C39423777D2559567D3009FF9A /* BDBOAuth1Manager */ = {
 			isa = PBXGroup;
 			children = (
-				685397BDBCE74C3E5BB65FB4A12ED7DE /* NSURLSession */,
-				23AFC1BD0FECF8AD2AB8F2C5CD473BA4 /* Reachability */,
-				AE9925C4C5FF49335F8388244F0E4206 /* Security */,
-				1E2BFFA462D801163506376545447C78 /* Serialization */,
-				D2F468D464149437062E80A527CDEDD9 /* Support Files */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		2EDCBD3541428EF20A6545FB761D395C /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				F94AD47EA09B96C75E4B380F1706273A /* AFError.swift */,
-				97879BD8B896DC27A668036BDF8E7231 /* Alamofire.swift */,
-				0517C5CEBDFF13627ADF4A1E28E0044A /* DispatchQueue+Alamofire.swift */,
-				CE273BFC14CB90E346F4F2A7E6703A77 /* MultipartFormData.swift */,
-				3DAFBC730F73C33DB25F330C8FE2B5A7 /* NetworkReachabilityManager.swift */,
-				423658DDF09F78C83DC7CD467035FDCB /* Notifications.swift */,
-				E20497739E3AE494DAB0AEA999E460E7 /* ParameterEncoding.swift */,
-				48E1427B2A3093D33EBF999FD879D147 /* Request.swift */,
-				03F2ED9A90DFEBEB7D14E81C11F5C6E6 /* Response.swift */,
-				24903CF135FF351E5A54FFA159832841 /* ResponseSerialization.swift */,
-				398AB7417A567DFF3EE2C08CBD498667 /* Result.swift */,
-				1B56A7FA8BC756B487980A6D90A69678 /* ServerTrustPolicy.swift */,
-				29D14887CE8DB27B59C967983BFC3769 /* SessionDelegate.swift */,
-				8B7C6DF6921DC326E8F3A038B21D50CE /* SessionManager.swift */,
-				7A8D8DEAF41FF10F534A201A77ADF343 /* TaskDelegate.swift */,
-				80AC9C5D22A29E692E7EF924AC8F408D /* Timeline.swift */,
-				CA51E6377123B7FCF1C83B8FA0C854D5 /* Validation.swift */,
-				50CB64B5AFBDDD492C69440FE0809A9C /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		3456271AD0C6A30789E8DE3A1D924F6A /* BDBOAuth1Manager */ = {
-			isa = PBXGroup;
-			children = (
-				DD64CF6C7729B4D365F3E89D96C9C957 /* BDBOAuth1RequestSerializer.h */,
-				72B8A6F941049814AB9467B59F28D036 /* BDBOAuth1RequestSerializer.m */,
-				586858C7A01574D36908ED2EAC372F6F /* BDBOAuth1SessionManager.h */,
-				35F53A114E2A8ADA598463622C87136E /* BDBOAuth1SessionManager.m */,
-				8F49771497DE2C256C2ACCE1D3144DAB /* NSDictionary+BDBOAuth1Manager.h */,
-				3D4C859852E22DCF6B8361C683DF1DCE /* NSDictionary+BDBOAuth1Manager.m */,
-				24D5D78B39A0DD3DC666BB1B35BB3105 /* NSString+BDBOAuth1Manager.h */,
-				1A8652422A46FE0DACE4FBB5B8E3BEEC /* NSString+BDBOAuth1Manager.m */,
-				A9BE7089EF9BF866F6547FC27EB26B88 /* Support Files */,
+				1BA17BB2CA9DDF14EF63DE96C38E9137 /* BDBOAuth1RequestSerializer.h */,
+				9D39F196FF04D864129CD06760E572BA /* BDBOAuth1RequestSerializer.m */,
+				553478D475A4D6728B4A9E852A4CFF96 /* BDBOAuth1SessionManager.h */,
+				D3BF32890323BD3035ACD699114C4A97 /* BDBOAuth1SessionManager.m */,
+				DD88A70551AE97F9C606EC8EAC13A733 /* NSDictionary+BDBOAuth1Manager.h */,
+				40D2A29D8E402D033FABAE44C60CC3C3 /* NSDictionary+BDBOAuth1Manager.m */,
+				0BEBA633115BAB0EFCD02ABA350826BC /* NSString+BDBOAuth1Manager.h */,
+				92793108C3A2452C125A6E73E6B85AA0 /* NSString+BDBOAuth1Manager.m */,
+				861EFE25B11F7F05A83FD178B3A5E356 /* Support Files */,
 			);
 			name = BDBOAuth1Manager;
 			path = BDBOAuth1Manager;
 			sourceTree = "<group>";
 		};
-		392AED634DAD2B94B50BE153F62F315D /* Frameworks */ = {
+		36C6D029C22E314070EF4A8489943477 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				881DC02C4DC7F4D236CAEAD69EA75EE1 /* GooglePlaces.framework */,
+				E29596D43240D9145831C9A6A19B6764 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		3D67579CBDC3AFDC183E5506AA9E2A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7133C0E7B0B1940275BFE49C2BE5D72 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		50CB64B5AFBDDD492C69440FE0809A9C /* Support Files */ = {
+		4659E708C354CBA0F4DB28BB2270F213 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				D6A3BA23EC9D2D52139035B2E1289C56 /* Alamofire.modulemap */,
-				9BDB73232670CC624AB573AAF892776A /* Alamofire.xcconfig */,
-				60AAF2CCA4DF1FDA501D51AA2233B559 /* Alamofire-dummy.m */,
-				9A428BBE2320B428A11A592858E628FE /* Alamofire-prefix.pch */,
-				CCE0ACAABFF352C0D33E04136A3A050F /* Alamofire-umbrella.h */,
-				D1DECA5FD9D9D9F5B1E598C57C2C95FA /* Info.plist */,
+				BB5560C2A67A7096BB63DA52B61156E0 /* Frameworks */,
+				6776E0E521DB8760CCA72BF12D5B4813 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		480102A2B246B0330517AB70EA1CBAD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC679B8DE0240B9E61351D5E0FE9BA25 /* AFNetworking */,
+				583F71DB9C3F2EDFD37627581C703F02 /* Alamofire */,
+				2FD5D6C39423777D2559567D3009FF9A /* BDBOAuth1Manager */,
+				D1E294BB3D02B89944503FFD46592FFB /* Firebase */,
+				78BA70E11C3C707070E0B9DA2861CD3B /* FirebaseAnalytics */,
+				69D9B4016B22B47A3DD250A0B83A546D /* FirebaseAuth */,
+				1F89852DB4779E7BF0FF0A18BC551BA8 /* FirebaseCore */,
+				8834F16AC86EF0CBBB00151726E6CBA3 /* FirebaseDatabase */,
+				644CAFE490F2A3CB140CAA99864B6FD1 /* FirebaseInstanceID */,
+				4849C8EE0884758703960A4886208107 /* FirebaseStorage */,
+				A0DB657C0669B47FAAAB525B5487EBAF /* GoogleInterchangeUtilities */,
+				CEC29D81633B07F3E0D0DF7F9F57BD36 /* GoogleMaps */,
+				4659E708C354CBA0F4DB28BB2270F213 /* GooglePlaces */,
+				36C6D029C22E314070EF4A8489943477 /* GoogleSymbolUtilities */,
+				DB8C59D348E403055C1507A3CE5E4657 /* GoogleToolboxForMac */,
+				88165D40E05C9CAACE2952D41A72CE79 /* GTMSessionFetcher */,
+				D82F950E8E4D1C99751A265C6CAD5255 /* OAuthSwift */,
+				24A244F0982DDA9BA8B49AC2A8901857 /* p2.OAuth2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4849C8EE0884758703960A4886208107 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				733CDBA7EFF30CF8667E59B0C31BA37A /* Frameworks */,
+			);
+			name = FirebaseStorage;
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		4B45562274E6434AAC723E642BAB7E98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11B3C0F0E6A45710D0C357C149F31D1 /* GTMSessionFetcher.modulemap */,
+				861C736C9264F38D5C9B2A7149C6647D /* GTMSessionFetcher.xcconfig */,
+				D9EC332FFAB878D521CF6448E44097E4 /* GTMSessionFetcher-dummy.m */,
+				1301AEF9A7A058E8056355DBFEFFC8FA /* GTMSessionFetcher-prefix.pch */,
+				E4723A290A5216DEDF87A894DEE23DA7 /* GTMSessionFetcher-umbrella.h */,
+				4FD3FA241700EBDCB016DCE29C9A665E /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = "../Target Support Files/GTMSessionFetcher";
 			sourceTree = "<group>";
 		};
-		570C2456E01D294DED683BD0BE2197AD /* Support Files */ = {
+		583F71DB9C3F2EDFD37627581C703F02 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				E0124191989BD518F95C78B55541D79C /* GoogleToolboxForMac.modulemap */,
-				3FCD3187C1A7C5EA037E7F56FB62F772 /* GoogleToolboxForMac.xcconfig */,
-				BD65EC088C4D560437E4DAB038752D19 /* GoogleToolboxForMac-dummy.m */,
-				23CF682F215C22434F51BB21F3186D6E /* GoogleToolboxForMac-prefix.pch */,
-				FE80BCE551E0EB00A7BA1ADF9912BF33 /* GoogleToolboxForMac-umbrella.h */,
-				3511993ABD1FDB41E2645B16C06B3D57 /* Info.plist */,
+				57413BBC4CCB5EC6F28A668F221E5B70 /* AFError.swift */,
+				5C39C91B590230DD11990FF49149F02B /* Alamofire.swift */,
+				51AB3FA8E4A800FCC6992A81874D04F9 /* DispatchQueue+Alamofire.swift */,
+				2F0BDBCD974CCA92AB8FD89FE837C70C /* MultipartFormData.swift */,
+				37F805D37FB6FE498ED4C13D23546376 /* NetworkReachabilityManager.swift */,
+				A863476C22E6149CD9742213C193C791 /* Notifications.swift */,
+				2C54704E02D860DB7836DA2472366B7A /* ParameterEncoding.swift */,
+				BE13535532664BFDEE911E25A04A8EC1 /* Request.swift */,
+				DB020089EA879BF2DA9FF97BAFE42D70 /* Response.swift */,
+				363AD92A6C3299577B17D6D39B581310 /* ResponseSerialization.swift */,
+				E4B6C54EE72006551B323C9EB4954448 /* Result.swift */,
+				5FDDD6FC8D2C864DC25A50473D488095 /* ServerTrustPolicy.swift */,
+				928E87B0E249EEAD9559C27AD75DF312 /* SessionDelegate.swift */,
+				7DA35CC955AB5D4F673562B4EB9B746A /* SessionManager.swift */,
+				22D97D9CB051D8FC456FE7748D8DDD65 /* TaskDelegate.swift */,
+				3CBC68C8FC814B675FFCEFDD3F927C8D /* Timeline.swift */,
+				95035E2DDAFB4D221202C7122EB8CC54 /* Validation.swift */,
+				B0928711901B48C124FAF4E1A463B6F4 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		57839D6C8A065E0B73B4795ED6BD95AF /* FirebaseCore */ = {
+		640DD12B34161F8FBF6E75DB2AF648C8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D854E6A44CF1E718CE8F74289DD22C0B /* Frameworks */,
+				9030FE36AE0D360BD8F3C37BEE5A1496 /* Frameworks */,
 			);
-			name = FirebaseCore;
-			path = FirebaseCore;
+			name = Base;
 			sourceTree = "<group>";
 		};
-		667E0709418E9FE53E1FFC5D21DF49AC /* FirebaseAuth */ = {
+		644CAFE490F2A3CB140CAA99864B6FD1 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				CEF8C1370E55C44A933FAA505B8C2C2B /* Frameworks */,
+				1979BAAA6D48E4196E76BFEB3CB930FF /* FIRInstanceID.h */,
+				3D67579CBDC3AFDC183E5506AA9E2A73 /* Frameworks */,
 			);
-			name = FirebaseAuth;
-			path = FirebaseAuth;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		66F93284493DAECA8926944DE09FBD10 /* GoogleMaps */ = {
+		6776E0E521DB8760CCA72BF12D5B4813 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				81357CFC41B0472D6B586617F9F173BB /* Base */,
-				681CEA28342D4116C61E52CFF8A81606 /* Maps */,
+				B499EF144B39490CDDACA2F7CFE75863 /* GooglePlaces.bundle */,
 			);
-			name = GoogleMaps;
-			path = GoogleMaps;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		67D85B533701EE273BE93DC39FEC9941 /* Products */ = {
@@ -747,56 +768,61 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		681CEA28342D4116C61E52CFF8A81606 /* Maps */ = {
+		692C0A148A6425FC2DCFA7599B825725 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71C73095099510B4D02280C4CA702CAB /* Frameworks */,
-				DC9D0C5CAC9A433FDFD3D0B55E71649F /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		685397BDBCE74C3E5BB65FB4A12ED7DE /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				EF8AF77223AD1D9415EEB66E0E93F32C /* AFHTTPSessionManager.h */,
-				19F87140EDDDFE9D90DBF2DC9D387D69 /* AFHTTPSessionManager.m */,
-				EA5A96BEEDE3D78FF6CF137AA1E952A8 /* AFURLSessionManager.h */,
-				4830DFBBBDECCEE518F78F23DC4C1612 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		70637216F2BA4B0D573B7F1ACE34F159 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B763C682FEC1FE7365725E013123D028 /* GTMSessionFetcher.modulemap */,
-				6A1A18A9176824A35A1AF6C6164AC0F2 /* GTMSessionFetcher.xcconfig */,
-				BA80348F80668737198AE8C6FE478183 /* GTMSessionFetcher-dummy.m */,
-				C6F62282F591AD4B861C136555D01D9F /* GTMSessionFetcher-prefix.pch */,
-				BC5996F17E03ED2409EBE7120FD0D6C3 /* GTMSessionFetcher-umbrella.h */,
-				9B975365B57E01C4DF5837FBC7308358 /* Info.plist */,
+				D4DA2B7EAB9DC50AD2755246F4601489 /* GoogleToolboxForMac.modulemap */,
+				A9C898783DCA24AD43DAAF4D9A4C47A7 /* GoogleToolboxForMac.xcconfig */,
+				A709FB87430EEFB1A94A0F834EE9174E /* GoogleToolboxForMac-dummy.m */,
+				CC172BBCD1BF9185B8095FE752E2F178 /* GoogleToolboxForMac-prefix.pch */,
+				DA2C60136496ADC9F31B54902278B14F /* GoogleToolboxForMac-umbrella.h */,
+				792810AD486B6C346E9AA2B5C3D02E36 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GTMSessionFetcher";
+			path = "../Target Support Files/GoogleToolboxForMac";
 			sourceTree = "<group>";
 		};
-		7077F35C996210E1E7E3E90D6D3A5D31 /* Firebase */ = {
+		69D9B4016B22B47A3DD250A0B83A546D /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				A513158251CEA38F95EF993388D7A3E0 /* Core */,
+				D7F697C7BCAD54D1D77B893CA19B7419 /* Frameworks */,
 			);
-			name = Firebase;
-			path = Firebase;
+			name = FirebaseAuth;
+			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
-		71C73095099510B4D02280C4CA702CAB /* Frameworks */ = {
+		6A428684B3AEFFEE553FD2ED09846453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				372BA49002DBA67A151DB5ADA86A1730 /* GoogleMaps.framework */,
-				21EB7E6C9DE8CDA719999F3E0513C8DC /* GoogleMapsCore.framework */,
+				FAACF1A4A5B1548AC43C725B7783DC50 /* FirebaseCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728C6D169F8D53C22EBCDD63A41636EA /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				B0ADC6D6AAEB7A32215ACD27CD9ABBE3 /* GTMNSData+zlib.h */,
+				9304449B2F566AB7A54C16F3A2760856 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		733CDBA7EFF30CF8667E59B0C31BA37A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51CDACDE630491FE852636AE2CD119BF /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BA70E11C3C707070E0B9DA2861CD3B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				B1E7560567FAF537217DB8B59426B86E /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -804,143 +830,127 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				AD37EE3CE22F2D6A660B5BD65007E786 /* Frameworks */,
-				A801F398D23942E0BA3367ACD31E4754 /* Pods */,
+				480102A2B246B0330517AB70EA1CBAD6 /* Pods */,
 				67D85B533701EE273BE93DC39FEC9941 /* Products */,
 				ED527F44431C520941729FA98F78D541 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E587907331227050D8E2BC0D55A0381 /* Frameworks */ = {
+		7F3B88A7AB343C1BFBF54E97E74FE26E /* NSString+URLArguments */ = {
 			isa = PBXGroup;
 			children = (
-				D4339FDA0169634B2A4DFAEBD876A408 /* FirebaseDatabase.framework */,
+				104051A07A9EFB9ED122081314A30E3E /* GTMNSString+URLArguments.h */,
+				AFB37B49485BDC0729DC531B7046938C /* GTMNSString+URLArguments.m */,
 			);
-			name = Frameworks;
+			name = "NSString+URLArguments";
 			sourceTree = "<group>";
 		};
-		81357CFC41B0472D6B586617F9F173BB /* Base */ = {
+		818CAFF3735763B209E7DC5E62618A45 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				9D2E90B7CA020A721EF05972615447AE /* Frameworks */,
+				95BA73B1C9A73553B1D34524F96E0383 /* AFURLRequestSerialization.h */,
+				75B48A8D838B66670F9810661299A6C6 /* AFURLRequestSerialization.m */,
+				DB5A9E06284A120BE3445ED9452946E3 /* AFURLResponseSerialization.h */,
+				5CE0E8D6780209B8DF5ED22FE5D2AAEF /* AFURLResponseSerialization.m */,
 			);
-			name = Base;
+			name = Serialization;
 			sourceTree = "<group>";
 		};
-		89E8A6DD33380B7FB7E2841B4779372E /* DebugUtils */ = {
+		861EFE25B11F7F05A83FD178B3A5E356 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				064981819F94541C3EE7812033EF7670 /* GTMDebugSelectorValidation.h */,
-				9FA7D7CA6F8F9CAB7B2A5AA815CF2DEF /* GTMDebugThreadValidation.h */,
-				69312006595FB4D8D9B61F6016490F63 /* GTMMethodCheck.h */,
-			);
-			name = DebugUtils;
-			sourceTree = "<group>";
-		};
-		8F1AD21CBC2C275E64DE791B26278106 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				D95234F27F0D39AE6716E6644F53C3C9 /* Frameworks */,
-			);
-			name = GoogleSymbolUtilities;
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		927AA9E9A206ABEF55E6BFC35301DB40 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				446485E1B5BDF840CCA37D59B7FEEBBF /* Info.plist */,
-				F0C25F7E7FC5C12A1DBE9A4114DC2E73 /* p2.OAuth2.modulemap */,
-				B3115BB3937367C86B19C72AF95DFA76 /* p2.OAuth2.xcconfig */,
-				CDAAD077E4E418AD1676E2147692FED2 /* p2.OAuth2-dummy.m */,
-				9528268176389D5FF99BD691690C2FFB /* p2.OAuth2-prefix.pch */,
-				EEFB7C693DD4D4200287DDA25CBAF2B6 /* p2.OAuth2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/p2.OAuth2";
-			sourceTree = "<group>";
-		};
-		9A3154B94649EC77105ABE37225A1BF8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9F081230DD4B0A8B35372AC52FDD3FB3 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9CB7B960BD0CF8593C38CF29126EA0BE /* GoogleToolboxForMac */ = {
-			isa = PBXGroup;
-			children = (
-				89E8A6DD33380B7FB7E2841B4779372E /* DebugUtils */,
-				AA718C3ADB1A50247B6B52CD63BFEF0C /* Defines */,
-				DD748F6C4BD8341DC56686A50A55BE38 /* NSData+zlib */,
-				B50A9DBAD9C9C5BD5862EF2AC546759E /* NSDictionary+URLArguments */,
-				1043313AF9C9F1DBBF11BD066C5AA73E /* NSString+URLArguments */,
-				570C2456E01D294DED683BD0BE2197AD /* Support Files */,
-			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
-			sourceTree = "<group>";
-		};
-		9D2E90B7CA020A721EF05972615447AE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				679F7701912EF4761ED8D56B668B6BE1 /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A513158251CEA38F95EF993388D7A3E0 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				712D34B54FFB248284F4374A590163F0 /* Firebase.h */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A801F398D23942E0BA3367ACD31E4754 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2EC132E2C43F6EE9CAE22FA446E96300 /* AFNetworking */,
-				2EDCBD3541428EF20A6545FB761D395C /* Alamofire */,
-				3456271AD0C6A30789E8DE3A1D924F6A /* BDBOAuth1Manager */,
-				7077F35C996210E1E7E3E90D6D3A5D31 /* Firebase */,
-				B5B1853BB3BAE15566F0CA79BC8A0859 /* FirebaseAnalytics */,
-				667E0709418E9FE53E1FFC5D21DF49AC /* FirebaseAuth */,
-				57839D6C8A065E0B73B4795ED6BD95AF /* FirebaseCore */,
-				BB75C9BA01B1907F22C67B7B90E45A95 /* FirebaseDatabase */,
-				1194787C32C384C45395C2D42BF4A14A /* FirebaseInstanceID */,
-				F982BB3E57D0F5D311A1DE688B33B777 /* GoogleInterchangeUtilities */,
-				66F93284493DAECA8926944DE09FBD10 /* GoogleMaps */,
-				D19325F9A0937652504531C10CEDEA37 /* GooglePlaces */,
-				8F1AD21CBC2C275E64DE791B26278106 /* GoogleSymbolUtilities */,
-				9CB7B960BD0CF8593C38CF29126EA0BE /* GoogleToolboxForMac */,
-				FECE15C2B3560179BF7D4F1A6664209A /* GTMSessionFetcher */,
-				03230ADC070D3224E72C32748D98D31B /* OAuthSwift */,
-				187B9CF652D10E9FA3EC52DEBF647386 /* p2.OAuth2 */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A9BE7089EF9BF866F6547FC27EB26B88 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				761B433D2EA346C207E1A5B043209FE4 /* BDBOAuth1Manager.modulemap */,
-				293D0A87509075EE01EE0F50E58424C9 /* BDBOAuth1Manager.xcconfig */,
-				5BD4E04B8AE4FEF553D3CE0B8D4AC7DA /* BDBOAuth1Manager-dummy.m */,
-				7A5CA0526835D18D2927739F1477EFC4 /* BDBOAuth1Manager-prefix.pch */,
-				3B8FDC8410EE459C789F5F38EC138D6B /* BDBOAuth1Manager-umbrella.h */,
-				3728B7EE48446A3A54B75D08607C74C7 /* Info.plist */,
+				DBFB7C9C3F62F0430D0F945AD9E06E55 /* BDBOAuth1Manager.modulemap */,
+				E603BF0DE65E181ED2B1CA2F5FA2B728 /* BDBOAuth1Manager.xcconfig */,
+				148BB2F51D278525CE59C7DD6CEAE4DE /* BDBOAuth1Manager-dummy.m */,
+				B0B1F14B1325837BA47F5B5AA0F70F90 /* BDBOAuth1Manager-prefix.pch */,
+				596F19015B762DC9B5B7AF7DC3567681 /* BDBOAuth1Manager-umbrella.h */,
+				97D4FE1C97189F58731316AF81D17183 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BDBOAuth1Manager";
 			sourceTree = "<group>";
 		};
-		AA718C3ADB1A50247B6B52CD63BFEF0C /* Defines */ = {
+		88165D40E05C9CAACE2952D41A72CE79 /* GTMSessionFetcher */ = {
 			isa = PBXGroup;
 			children = (
-				C58898F9E1FB7F60AC3C19F73E049E1C /* GTMDefines.h */,
+				19F0AF9B8DC2B207B95939219870F31D /* Core */,
+				4B45562274E6434AAC723E642BAB7E98 /* Support Files */,
 			);
-			name = Defines;
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		8834F16AC86EF0CBBB00151726E6CBA3 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				918EBE2B7BCD45A3F97EA7F5806C7ED4 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		8DAD674CF15FED1443022F95E0E6B0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC03186C904112C403A74583D7DE88 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9030FE36AE0D360BD8F3C37BEE5A1496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268414577AF27AE6E25DB8F779CCE5C2 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918EBE2B7BCD45A3F97EA7F5806C7ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE82A6092255DE88AF2CA28A04BEB0 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		987C1172010A276113399E35B7151C65 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1DF2150707CF144C636700D50B136E8E /* Frameworks */,
+				10F5950B6853E903B641317ED1B8CBC9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		990017E9CBA05784170E4DC508719CB8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0495D8472A2C5906AB010EBEC9999912 /* AFNetworkReachabilityManager.h */,
+				62DFD1AE7DF281D2B1CB7073730215BC /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		A0DB657C0669B47FAAAB525B5487EBAF /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD674CF15FED1443022F95E0E6B0D2 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		AC679B8DE0240B9E61351D5E0FE9BA25 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1A65890DEE8240BF7B2F803FC7ECAEE3 /* NSURLSession */,
+				990017E9CBA05784170E4DC508719CB8 /* Reachability */,
+				09B04FA55C0BD919F2739DF91D4832A7 /* Security */,
+				818CAFF3735763B209E7DC5E62618A45 /* Serialization */,
+				20CED046D02CABF4D7597C7D728020B8 /* Support Files */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		AD37EE3CE22F2D6A660B5BD65007E786 /* Frameworks */ = {
@@ -952,103 +962,90 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AE278F04511089911D852A5EC1D06C56 /* Frameworks */ = {
+		B0928711901B48C124FAF4E1A463B6F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78CF6592A9FA116D276A1027DD1176C1 /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AE9925C4C5FF49335F8388244F0E4206 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				50B4DBEC265366EFFDF2D5EF4EC8E096 /* AFSecurityPolicy.h */,
-				E9537A87A5DA5C005651E06CB38F7B5A /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		B50A9DBAD9C9C5BD5862EF2AC546759E /* NSDictionary+URLArguments */ = {
-			isa = PBXGroup;
-			children = (
-				DCF8161562A54277C21387E591C2C9DF /* GTMNSDictionary+URLArguments.h */,
-				44718CE02A91D179370F5C2F17228941 /* GTMNSDictionary+URLArguments.m */,
-			);
-			name = "NSDictionary+URLArguments";
-			sourceTree = "<group>";
-		};
-		B5B1853BB3BAE15566F0CA79BC8A0859 /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				AE278F04511089911D852A5EC1D06C56 /* Frameworks */,
-			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		BB75C9BA01B1907F22C67B7B90E45A95 /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				7E587907331227050D8E2BC0D55A0381 /* Frameworks */,
-			);
-			name = FirebaseDatabase;
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		CEF8C1370E55C44A933FAA505B8C2C2B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				866AA50B05BAB8A007BC4932D18239DA /* FirebaseAuth.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D098AD699ADF039F64DA1D09F19777C6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				179BCA4C0E02B2421100B427196A02C0 /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D19325F9A0937652504531C10CEDEA37 /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				392AED634DAD2B94B50BE153F62F315D /* Frameworks */,
-				D098AD699ADF039F64DA1D09F19777C6 /* Resources */,
-			);
-			name = GooglePlaces;
-			path = GooglePlaces;
-			sourceTree = "<group>";
-		};
-		D2384DD15B891491E0FCD681C551465D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				73E171C4EA34215415C43D94AD953D0B /* GTMSessionFetcher.h */,
-				9A2D5BD4B5D771636DD59A12919500E5 /* GTMSessionFetcher.m */,
-				A2F4E945AED61AAEFE7A08A43733B725 /* GTMSessionFetcherLogging.h */,
-				C641202E047F9A0550218E5FDD10F516 /* GTMSessionFetcherLogging.m */,
-				AC44D93736A58DE254318CA651DBCBBF /* GTMSessionFetcherService.h */,
-				B02210547CB9DB6C959961BF6FD08992 /* GTMSessionFetcherService.m */,
-				4D332E536E16EBB5EDFD5E5EAB949087 /* GTMSessionUploadFetcher.h */,
-				E479543D9D76FBC31556B5B032A3C0D2 /* GTMSessionUploadFetcher.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		D2F468D464149437062E80A527CDEDD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				65A3EBE2CCE0B62B7D30D3DE53585373 /* AFNetworking.modulemap */,
-				748A8F4D4B8EF55A65A8F85227657731 /* AFNetworking.xcconfig */,
-				9078234423AEB6BFD7844F6F2127B7DF /* AFNetworking-dummy.m */,
-				E1ACC4A326782B1216E8C23CFC57F246 /* AFNetworking-prefix.pch */,
-				C69B6A6A3B3F4B9ADB391864F72AB830 /* AFNetworking-umbrella.h */,
-				6F028E8678A9CF278320D2F2D6F97D0F /* Info.plist */,
+				E9A7B04C688715A32846BAE3CED32682 /* Alamofire.modulemap */,
+				44CC46329F1C087F6B42DFA0FE536430 /* Alamofire.xcconfig */,
+				B26A64085741F11FE2C9A229B342026F /* Alamofire-dummy.m */,
+				37190C64FDBA6B2A60CD9FA5B53E029B /* Alamofire-prefix.pch */,
+				32E0FCF77D41D6AD391EB2A377AE1A94 /* Alamofire-umbrella.h */,
+				957EFB159ED2A7ED86782DB59F67C3B6 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B1E7560567FAF537217DB8B59426B86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82B00DFF7704092531F9A3B4408B310 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B449C2AABD3D56593028025853B52166 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53A5C61E7093061F55C5CC2C3E05DB5 /* Info.plist */,
+				8E1E4A5DE0C20BD349D3269A848EF9B7 /* p2.OAuth2.modulemap */,
+				4372E4FA4D42A561B121D6F9FB9FDC5B /* p2.OAuth2.xcconfig */,
+				CBEDAD44C6D9BE81649FA166A752D775 /* p2.OAuth2-dummy.m */,
+				1B817365AEEA819CFF372BBAF771CCD9 /* p2.OAuth2-prefix.pch */,
+				21101EC90B190A47EEED9BDCB1E729F7 /* p2.OAuth2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/p2.OAuth2";
+			sourceTree = "<group>";
+		};
+		BB5560C2A67A7096BB63DA52B61156E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA865D64FF10D2C24C453E508BDECC /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC29D81633B07F3E0D0DF7F9F57BD36 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				640DD12B34161F8FBF6E75DB2AF648C8 /* Base */,
+				987C1172010A276113399E35B7151C65 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D1E294BB3D02B89944503FFD46592FFB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC0C7D578CD9274500F77685B07266 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D30A7AF929A184197388DFE62B517CCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0C8844725A1A3D22FEBA56A35C7CD /* Info.plist */,
+				9516A1414300BD2B0AAF891D257F2B2A /* OAuthSwift.modulemap */,
+				3BC829ABA4B53C1657E3B06988C9A4AB /* OAuthSwift.xcconfig */,
+				078C65D57B69DD4AF92067BC98434C6B /* OAuthSwift-dummy.m */,
+				C1B5C559587100F931C0E3A5386C008F /* OAuthSwift-prefix.pch */,
+				7021CBF059F4B0C2FB4B8EA0FB28B6E3 /* OAuthSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OAuthSwift";
+			sourceTree = "<group>";
+		};
+		D37DEE21950D3399AA6D29720B6BBD4E /* NSDictionary+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				458995CACA1C35232D4D250B46732678 /* GTMNSDictionary+URLArguments.h */,
+				82FB2A9D956C22B4F14ABE782EC8FD37 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
 			sourceTree = "<group>";
 		};
 		D796303C6942493756AFA97B1F6C1A5A /* iOS */ = {
@@ -1064,37 +1061,66 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D854E6A44CF1E718CE8F74289DD22C0B /* Frameworks */ = {
+		D7F697C7BCAD54D1D77B893CA19B7419 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9728823F2B7C3A88222F8E4B1463F2A /* FirebaseCore.framework */,
+				F8FB4A8923677B148E54A8BFC4A1F97E /* FirebaseAuth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D95234F27F0D39AE6716E6644F53C3C9 /* Frameworks */ = {
+		D82F950E8E4D1C99751A265C6CAD5255 /* OAuthSwift */ = {
 			isa = PBXGroup;
 			children = (
-				530FFAF339AFEFFCA9B2414B49C93EF2 /* GoogleSymbolUtilities.framework */,
+				29A5038C79FD94C6F34EC01467704017 /* Collection+OAuthSwift.swift */,
+				453D9A70BBFDBF5D3F90BA5123FC449B /* Data+OAuthSwift.swift */,
+				FD02A924E786AA93F327CE2A5A3BE06F /* Dictionary+OAuthSwift.swift */,
+				38FD890040A8E82739455FE2D3CB0E9E /* HMAC.swift */,
+				5843CE3B081946099CECF1BA14731E1C /* Int+OAuthSwift.swift */,
+				5DBE66CF15D75DAF298F477F6EA8ED92 /* NSError+OAuthSwift.swift */,
+				D27148074530CA7AD3E28E91E5A7AEC9 /* OAuth1Swift.swift */,
+				D03F23543837AAEA788F7BE2DFAE033D /* OAuth2Swift.swift */,
+				37DDC9A3EB5BB7C030DA4DE7DCFBE75F /* OAuthSwift.swift */,
+				5CF790026BE4DBCD11066F5A2C54A3E9 /* OAuthSwiftClient.swift */,
+				1D530E799872723D91B8FE46258BC84E /* OAuthSwiftCredential.swift */,
+				A26E40A076B02670EA385100C36859A5 /* OAuthSwiftError.swift */,
+				DC36A51D7FF103827756EC23D41E95E8 /* OAuthSwiftHTTPRequest.swift */,
+				C226D8B1B0EDD17DFDEBD3F6706E868B /* OAuthSwiftMultipartData.swift */,
+				A354D335E62D3DDFD2927E9675A1A72F /* OAuthSwiftResponse.swift */,
+				E623648CE390575CC019F5C295A8FE68 /* OAuthSwiftURLHandlerType.swift */,
+				601AE7BE833269FB6E0FF9CC9BE47E9D /* OAuthWebViewController.swift */,
+				3B743199B38B4B471EA224E8DA9EE4E6 /* Objc.swift */,
+				BEDF3EB29A6183CBAD7BAC06094E180A /* SHA1.swift */,
+				DCDC16AD8EB2624BB0D181CD6E701358 /* String+OAuthSwift.swift */,
+				ACEC8AC443307AB296111C5175E3579C /* UIApplication+OAuthSwift.swift */,
+				B23A0B24B07FA3D60D3B06B702EB4793 /* URL+OAuthSwift.swift */,
+				AFE7F578E34A0FC60D9060031FED60C8 /* Utils.swift */,
+				D30A7AF929A184197388DFE62B517CCD /* Support Files */,
+			);
+			name = OAuthSwift;
+			path = OAuthSwift;
+			sourceTree = "<group>";
+		};
+		DB8C59D348E403055C1507A3CE5E4657 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F8B7E5493C5A2E0F9659CB803BBF0623 /* DebugUtils */,
+				FA5D722252FD158DF65B4632341A4E33 /* Defines */,
+				728C6D169F8D53C22EBCDD63A41636EA /* NSData+zlib */,
+				D37DEE21950D3399AA6D29720B6BBD4E /* NSDictionary+URLArguments */,
+				7F3B88A7AB343C1BFBF54E97E74FE26E /* NSString+URLArguments */,
+				692C0A148A6425FC2DCFA7599B825725 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		E29596D43240D9145831C9A6A19B6764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FABC21649EE886FE3185F6DA0C12C5 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC9D0C5CAC9A433FDFD3D0B55E71649F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3B4059AF7FE3CB5AEC81CAF87153D2EA /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DD748F6C4BD8341DC56686A50A55BE38 /* NSData+zlib */ = {
-			isa = PBXGroup;
-			children = (
-				38BA22F07B2345632DF440B188366126 /* GTMNSData+zlib.h */,
-				58B6A9B29CB6255F6C539EA5BD508C09 /* GTMNSData+zlib.m */,
-			);
-			name = "NSData+zlib";
 			sourceTree = "<group>";
 		};
 		ED527F44431C520941729FA98F78D541 /* Targets Support Files */ = {
@@ -1105,37 +1131,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F3B58666496BFD290D84B7C0ECC49084 /* Support Files */ = {
+		F8B7E5493C5A2E0F9659CB803BBF0623 /* DebugUtils */ = {
 			isa = PBXGroup;
 			children = (
-				B1EF83AC92E89E48B25263B78FF5581A /* Info.plist */,
-				A20AFEA749441164E61F37B163448103 /* OAuthSwift.modulemap */,
-				1CB99649E946A4096D1D72B3C5AC6FA2 /* OAuthSwift.xcconfig */,
-				27E62193EBB83DC6061F31B3F8B49442 /* OAuthSwift-dummy.m */,
-				CD873893F354576B07B12D85E93F2623 /* OAuthSwift-prefix.pch */,
-				269B846892EA9AD8B4397CE91A701DC6 /* OAuthSwift-umbrella.h */,
+				F5EAEF0BD7F75860FDD2A4B5261D586A /* GTMDebugSelectorValidation.h */,
+				72A1C3B7F6B3172252D376A258540578 /* GTMDebugThreadValidation.h */,
+				D3E7440B1AFA877FAB1806EA980DBDD1 /* GTMMethodCheck.h */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/OAuthSwift";
+			name = DebugUtils;
 			sourceTree = "<group>";
 		};
-		F982BB3E57D0F5D311A1DE688B33B777 /* GoogleInterchangeUtilities */ = {
+		FA5D722252FD158DF65B4632341A4E33 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
-				29DD20B9EC17AC833B9C43C85B02C63B /* Frameworks */,
+				AF47DBF824231AAB382BA29283AE7B44 /* GTMDefines.h */,
 			);
-			name = GoogleInterchangeUtilities;
-			path = GoogleInterchangeUtilities;
+			name = Defines;
 			sourceTree = "<group>";
 		};
-		FECE15C2B3560179BF7D4F1A6664209A /* GTMSessionFetcher */ = {
+		FAAC0C7D578CD9274500F77685B07266 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D2384DD15B891491E0FCD681C551465D /* Core */,
-				70637216F2BA4B0D573B7F1ACE34F159 /* Support Files */,
+				10E466D7FD6006BD4B61583D33FE7735 /* Firebase.h */,
 			);
-			name = GTMSessionFetcher;
-			path = GTMSessionFetcher;
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1658,7 +1677,7 @@
 		};
 		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BDB73232670CC624AB573AAF892776A /* Alamofire.xcconfig */;
+			baseConfigurationReference = 44CC46329F1C087F6B42DFA0FE536430 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1690,7 +1709,7 @@
 		};
 		15089E007882A9C6BA032BBA113125B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CB99649E946A4096D1D72B3C5AC6FA2 /* OAuthSwift.xcconfig */;
+			baseConfigurationReference = 3BC829ABA4B53C1657E3B06988C9A4AB /* OAuthSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1757,7 +1776,7 @@
 		};
 		374418EF7A33CE030C482F30B786CA91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 293D0A87509075EE01EE0F50E58424C9 /* BDBOAuth1Manager.xcconfig */;
+			baseConfigurationReference = E603BF0DE65E181ED2B1CA2F5FA2B728 /* BDBOAuth1Manager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1789,7 +1808,7 @@
 		};
 		3AF861AEADA89A377F12178D493BED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FCD3187C1A7C5EA037E7F56FB62F772 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = A9C898783DCA24AD43DAAF4D9A4C47A7 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1861,7 +1880,7 @@
 		};
 		487CEBAD558BC34F6586C91ED544CFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 293D0A87509075EE01EE0F50E58424C9 /* BDBOAuth1Manager.xcconfig */;
+			baseConfigurationReference = E603BF0DE65E181ED2B1CA2F5FA2B728 /* BDBOAuth1Manager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1893,7 +1912,7 @@
 		};
 		4AE0AB07FFD831265E4DA4EBA6142364 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3115BB3937367C86B19C72AF95DFA76 /* p2.OAuth2.xcconfig */;
+			baseConfigurationReference = 4372E4FA4D42A561B121D6F9FB9FDC5B /* p2.OAuth2.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1926,7 +1945,7 @@
 		};
 		68D95C9C99DF20D2D99D1037C81AD712 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3115BB3937367C86B19C72AF95DFA76 /* p2.OAuth2.xcconfig */;
+			baseConfigurationReference = 4372E4FA4D42A561B121D6F9FB9FDC5B /* p2.OAuth2.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1958,7 +1977,7 @@
 		};
 		7EE01F75585093C9ADB19AD6F25FA349 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CB99649E946A4096D1D72B3C5AC6FA2 /* OAuthSwift.xcconfig */;
+			baseConfigurationReference = 3BC829ABA4B53C1657E3B06988C9A4AB /* OAuthSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2027,7 +2046,7 @@
 		};
 		881B19BB9961D509DACE94450066151E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FCD3187C1A7C5EA037E7F56FB62F772 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = A9C898783DCA24AD43DAAF4D9A4C47A7 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2059,7 +2078,7 @@
 		};
 		9A58FB3BCCAAAD631AA3429B09D49826 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748A8F4D4B8EF55A65A8F85227657731 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 41027CFDAD38FBB013DAC85F726A97D4 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2091,7 +2110,7 @@
 		};
 		B9C7324D0ADEABED7BC7B2D9C608C5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A1A18A9176824A35A1AF6C6164AC0F2 /* GTMSessionFetcher.xcconfig */;
+			baseConfigurationReference = 861C736C9264F38D5C9B2A7149C6647D /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2123,7 +2142,7 @@
 		};
 		ED969C86CBBA712335D5E741625E75B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A1A18A9176824A35A1AF6C6164AC0F2 /* GTMSessionFetcher.xcconfig */;
+			baseConfigurationReference = 861C736C9264F38D5C9B2A7149C6647D /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2155,7 +2174,7 @@
 		};
 		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BDB73232670CC624AB573AAF892776A /* Alamofire.xcconfig */;
+			baseConfigurationReference = 44CC46329F1C087F6B42DFA0FE536430 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2188,7 +2207,7 @@
 		};
 		F673BCB2FC2DFE7909F6F559EEA161FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748A8F4D4B8EF55A65A8F85227657731 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 41027CFDAD38FBB013DAC85F726A97D4 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

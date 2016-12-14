@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseDatabase
+import Firebase
 import UIKit
 class EventModel {
     let key:String!
@@ -19,6 +20,9 @@ class EventModel {
     let eventRestaurant:String!
     let longitude:Double!
     let latitude:Double!
+//    let host:String!
+    
+    
 //    let image:UIImage
     
     init(eventTitle:String, eventMessage:String, eventLocation:String, eventTime:String,
@@ -33,6 +37,15 @@ class EventModel {
 //        self.image = image
         eventRef = nil
         self.key = key
+        
+//        let user = getCurrentUserInfo()
+//        self.host = user
+    }
+    
+    func getCurrentUserInfo()->String{
+        let user = FIRAuth.auth()?.currentUser
+        let currentUser = user?.email
+        return currentUser!
     }
     
     func toAnyObject()-> Any{

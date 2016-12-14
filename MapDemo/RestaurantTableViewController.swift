@@ -12,6 +12,8 @@ import OAuthSwift
 import p2_OAuth2
 
 
+//static 
+
 class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
     @IBOutlet weak var searchBar: UISearchBar!

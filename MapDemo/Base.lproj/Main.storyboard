@@ -15,7 +15,7 @@
         <scene sceneID="Abf-Ge-wE6">
             <objects>
                 <navigationController id="dD3-jN-bUS" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="X1t-AM-bci">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X1t-AM-bci">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.54003813520364785" blue="0.39517809272869919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -456,25 +456,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iWg-HM-ifn">
-                                <rect key="frame" x="16" y="220" width="343" height="60"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iWg-HM-ifn">
+                                <rect key="frame" x="16" y="201" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.85283464180000002" green="0.91736648580000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="R89-Gl-AM9"/>
-                                </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NzN-VM-FiE">
-                                <rect key="frame" x="16" y="288" width="343" height="57"/>
-                                <color key="backgroundColor" red="0.85283464180000002" green="0.91736648580000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ze-Ru-aCt">
-                                <rect key="frame" x="108" y="373" width="158" height="40"/>
+                                <rect key="frame" x="108" y="373" width="140" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ucK-AR-Jhs"/>
                                 </constraints>
@@ -513,27 +503,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r2H-Cc-hg4">
+                                <rect key="frame" x="15" y="239" width="344" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85283464180000002" green="0.91736648580000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NzN-VM-FiE">
+                                <rect key="frame" x="15" y="277" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85283464180000002" green="0.91736648580000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wQo-zW-R8o" firstAttribute="leading" secondItem="5l6-oR-K6P" secondAttribute="leadingMargin" id="012-oW-Z6S"/>
                             <constraint firstItem="7ze-Ru-aCt" firstAttribute="leading" secondItem="5l6-oR-K6P" secondAttribute="leadingMargin" constant="92" id="3Pb-JH-I9k"/>
                             <constraint firstItem="hXs-No-DpM" firstAttribute="top" secondItem="0UZ-0g-LkR" secondAttribute="bottom" constant="8" id="4v8-Rv-Jgg"/>
-                            <constraint firstItem="NzN-VM-FiE" firstAttribute="centerX" secondItem="Lmj-hj-7h8" secondAttribute="centerX" constant="-6" id="5Ix-Un-oAj"/>
                             <constraint firstItem="Lmj-hj-7h8" firstAttribute="leading" secondItem="5l6-oR-K6P" secondAttribute="leading" constant="163" id="ARK-Ze-JOY"/>
-                            <constraint firstItem="wQo-zW-R8o" firstAttribute="leading" secondItem="iWg-HM-ifn" secondAttribute="leading" id="KmS-X5-hTZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iWg-HM-ifn" secondAttribute="trailing" id="AXz-df-MZ7"/>
+                            <constraint firstItem="iWg-HM-ifn" firstAttribute="top" secondItem="wQo-zW-R8o" secondAttribute="bottom" constant="8" symbolic="YES" id="BDm-nz-Kke"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0UZ-0g-LkR" secondAttribute="trailing" id="MTd-DX-AVD"/>
-                            <constraint firstItem="7ze-Ru-aCt" firstAttribute="centerX" secondItem="NzN-VM-FiE" secondAttribute="centerX" id="OHY-Et-U3e"/>
-                            <constraint firstItem="iWg-HM-ifn" firstAttribute="trailing" secondItem="NzN-VM-FiE" secondAttribute="trailing" id="Tw8-1v-j1f"/>
-                            <constraint firstItem="wQo-zW-R8o" firstAttribute="trailing" secondItem="iWg-HM-ifn" secondAttribute="trailing" id="VOK-nN-Adk"/>
-                            <constraint firstItem="7ze-Ru-aCt" firstAttribute="top" secondItem="NzN-VM-FiE" secondAttribute="bottom" constant="28" id="YUH-zM-nMM"/>
-                            <constraint firstItem="iWg-HM-ifn" firstAttribute="leading" secondItem="NzN-VM-FiE" secondAttribute="leading" id="c8K-mD-78y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wQo-zW-R8o" secondAttribute="trailing" id="bxl-4T-5Lv"/>
                             <constraint firstItem="0UZ-0g-LkR" firstAttribute="leading" secondItem="5l6-oR-K6P" secondAttribute="leadingMargin" constant="264" id="h0g-9f-QzJ"/>
                             <constraint firstItem="Lmj-hj-7h8" firstAttribute="top" secondItem="7ze-Ru-aCt" secondAttribute="bottom" constant="8" symbolic="YES" id="iUS-gU-rEv"/>
                             <constraint firstItem="hXs-No-DpM" firstAttribute="top" secondItem="Lmj-hj-7h8" secondAttribute="bottom" constant="201" id="knX-eU-DpV"/>
-                            <constraint firstItem="iWg-HM-ifn" firstAttribute="top" secondItem="wQo-zW-R8o" secondAttribute="bottom" constant="27" id="nQ1-I9-jHF"/>
-                            <constraint firstItem="iWg-HM-ifn" firstAttribute="leading" secondItem="5l6-oR-K6P" secondAttribute="leadingMargin" id="raM-iG-p7h"/>
+                            <constraint firstItem="wQo-zW-R8o" firstAttribute="leading" secondItem="iWg-HM-ifn" secondAttribute="leading" id="t7X-S9-nW9"/>
                             <constraint firstItem="wQo-zW-R8o" firstAttribute="top" secondItem="DmT-On-YeY" secondAttribute="bottom" constant="47" id="tFJ-MB-H3m"/>
-                            <constraint firstItem="NzN-VM-FiE" firstAttribute="top" secondItem="iWg-HM-ifn" secondAttribute="bottom" constant="8" symbolic="YES" id="x9T-Rt-Ng3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="amr-as-uAg"/>
@@ -541,6 +542,7 @@
                         <outlet property="Logoutbutton" destination="bUn-T3-4jm" id="osq-8D-fcf"/>
                         <outlet property="emailField" destination="iWg-HM-ifn" id="QAa-7X-zK0"/>
                         <outlet property="passwordfield" destination="NzN-VM-FiE" id="FCc-FO-dao"/>
+                        <outlet property="usernamefield" destination="r2H-Cc-hg4" id="syQ-gK-hfg"/>
                         <outlet property="usernamelable" destination="wQo-zW-R8o" id="GsB-t6-KhF"/>
                         <segue destination="tie-EL-u3j" kind="show" identifier="Loggedin" id="DM5-kI-1CQ"/>
                     </connections>
