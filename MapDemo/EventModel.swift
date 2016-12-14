@@ -20,13 +20,14 @@ class EventModel {
     let eventRestaurant:String!
     let longitude:Double!
     let latitude:Double!
+    let imageUrl:String!
 //    let host:String!
     
     
-//    let image:UIImage
+
     
     init(eventTitle:String, eventMessage:String, eventLocation:String, eventTime:String,
-         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double) {
+         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double, imageUrl:String) {
         self.eventTitle = eventTitle
         self.eventLocation = eventLocation
         self.eventMessage = eventMessage
@@ -34,7 +35,7 @@ class EventModel {
         self.eventTime = eventTime
         self.longitude = longitude
         self.latitude = latitude
-//        self.image = image
+        self.imageUrl = imageUrl
         eventRef = nil
         self.key = key
         
@@ -62,7 +63,7 @@ class EventModel {
                 "restaurant":eventRestaurant,
                 "latitude": latitude,
                 "longitude":longitude,
-//                "image":imageData
+                "imageUrl":imageUrl
                 ]
     }
     
@@ -113,6 +114,12 @@ class EventModel {
             longitude = Double(longitudeTemp)!
         }else{
             longitude = 0.0
+        }
+        
+        if let imageUrlTemp = snapshotValue?["imageUrl"] as? String{
+            imageUrl = imageUrlTemp
+        }else{
+            imageUrl = ""
         }
     }
     

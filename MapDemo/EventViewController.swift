@@ -57,8 +57,6 @@ class EventViewController: UIViewController {
     }
     
     @IBAction func createEvent(_ sender: Any) {
-
-        uploadRestaurantImageToFireBase()
         
         var eventTitleEmptyFlag = false
         var eventTimeEmptyFlag = false
@@ -85,32 +83,42 @@ class EventViewController: UIViewController {
         //if the text field are both filled, create event
         if(eventTimeEmptyFlag && eventTitleEmptyFlag){
             let eventRef = self.dbRef.child(eventTitle.lowercased())
-            let event = EventModel(eventTitle: eventTitle, eventMessage: eventMessage, eventLocation: restaurantLocation, eventTime: eventTime, eventRestaurant: restaurantName, longitude:locationLogitude, latitude:locationLatidue)
             
-            eventRef.setValue(event.toAnyObject())
-            self.performSegue(withIdentifier: "joinEvent", sender: nil)
+            let storageRef = FIRStorage.storage().reference(forURL: "gs://foodbuddy-8e869.appspot.com").child("images/myImage2.png")
             
+            if let uploadData = UIImagePNGRepresentation(image!){
+                storageRef.put(uploadData, metadata: nil, completion: {
+                    (metadata, error) in
+                    
+                    if error != nil{
+                        print(error!)
+                        return
+                    }
+                    
+                    if let imageDataUrl = metadata?.downloadURL()?.absoluteString{
+                        //                   self.imageUrl = imageDataUrl
+                        //                    print(self.imageUrl)
+                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl)
+                        
+                        
+                        eventRef.setValue(event.toAnyObject())
+                        self.performSegue(withIdentifier: "joinEvent", sender: nil)
+                        
+                    }else{
+                        let imageDataUrl = ""
+                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl)
+                        
+                        
+                        eventRef.setValue(event.toAnyObject())
+                        self.performSegue(withIdentifier: "joinEvent", sender: nil)
+                    }
+                })
+            } 
         }
-        
     }
     
     func uploadRestaurantImageToFireBase(){
         
-        let storageRef = FIRStorage.storage().reference(forURL: "gs://foodbuddy-8e869.appspot.com").child("images/myImage.png")
-        
-        if let uploadData = UIImagePNGRepresentation(image!){
-            storageRef.put(uploadData, metadata: nil, completion: {
-                (metadata, error) in
-                
-                if error != nil{
-                    print(error!)
-                    return
-                }
-                
-                print(metadata!)
-                
-            })
-        }
         
     }
 

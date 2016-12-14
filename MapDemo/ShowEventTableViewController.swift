@@ -49,12 +49,20 @@ class ShowEventTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for:indexPath)
 //        let restaurantImageView = cell.viewWithTag(1) as! UIImageView
+        let restaurantImageView = cell.viewWithTag(1) as! UIImageView
         let titleLabel = cell.viewWithTag(2) as! UILabel
         let locationLabel = cell.viewWithTag(3) as! UILabel
         let timeLabel = cell.viewWithTag(4) as! UILabel
         let messageTextView = cell.viewWithTag(5) as! UITextView
         messageTextView.isEditable = false
         
+        if let imageUrl = events[indexPath.row].imageUrl{
+            let url = NSURL(string: imageUrl) as! URL
+            let imageData = NSData(contentsOf: url) as! Data
+            let image = UIImage(data: imageData)!
+            restaurantImageView.image = image
+        }
+
         locationLabel.text = events[indexPath.row].eventLocation
         titleLabel.text = events[indexPath.row].eventTitle
         timeLabel.text =  "Time: " + events[indexPath.row].eventTime
