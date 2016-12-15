@@ -21,13 +21,13 @@ class EventModel {
     let longitude:Double!
     let latitude:Double!
     let imageUrl:String!
-//    let host:String!
+    let hostUser:String!
     
     
 
     
     init(eventTitle:String, eventMessage:String, eventLocation:String, eventTime:String,
-         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double, imageUrl:String) {
+         eventRestaurant:String, key:String = "", longitude:Double, latitude:Double, imageUrl:String, hostUser:String) {
         self.eventTitle = eventTitle
         self.eventLocation = eventLocation
         self.eventMessage = eventMessage
@@ -36,18 +36,18 @@ class EventModel {
         self.longitude = longitude
         self.latitude = latitude
         self.imageUrl = imageUrl
+        self.hostUser = hostUser
         eventRef = nil
         self.key = key
         
-//        let user = getCurrentUserInfo()
-//        self.host = user
+
     }
     
-    func getCurrentUserInfo()->String{
-        let user = FIRAuth.auth()?.currentUser
-        let currentUser = user?.email
-        return currentUser!
-    }
+//    func getCurrentUserInfo()->String{
+//        let user = FIRAuth.auth()?.currentUser
+//        let currentUser = user?.email
+//        return currentUser!
+//    }
     
     func toAnyObject()-> Any{
         
@@ -63,7 +63,8 @@ class EventModel {
                 "restaurant":eventRestaurant,
                 "latitude": latitude,
                 "longitude":longitude,
-                "imageUrl":imageUrl
+                "imageUrl":imageUrl,
+                "hostUser":hostUser
                 ]
     }
     
@@ -120,6 +121,12 @@ class EventModel {
             imageUrl = imageUrlTemp
         }else{
             imageUrl = ""
+        }
+        
+        if let host = snapshotValue?["hostUser"] as? String{
+            hostUser = host
+        }else{
+            hostUser = ""
         }
     }
     

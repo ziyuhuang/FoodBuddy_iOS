@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import OAuthSwift
 import p2_OAuth2
-
+import Firebase
 
 //static 
 
@@ -45,6 +45,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.navigationItem.setHidesBackButton(true, animated: true)
         fetchData( )
     }

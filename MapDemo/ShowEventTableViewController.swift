@@ -22,9 +22,13 @@ class ShowEventTableViewController: UITableViewController {
     }
 
     func startObeserveDB(){
-        dbRef.observe(.value, with: {(snapshot:FIRDataSnapshot) in
-            var newEvents = [EventModel]()
+        var newEvents = [EventModel]()
+        self.dbRef.observe(FIRDataEventType.childAdded, with: {
+            (snapshot:FIRDataSnapshot) in
+            
+            print(snapshot.childrenCount)
             for event in snapshot.children{
+                print(event)
                 let eventObject = EventModel(snapshot:event as! FIRDataSnapshot)
                 newEvents.append(eventObject)
             }
@@ -32,6 +36,19 @@ class ShowEventTableViewController: UITableViewController {
             self.events = newEvents
             self.tableView.reloadData()
         })
+//        dbRef.observe(.childAdded, with: {(snapshot:FIRDataSnapshot) in
+//
+//            var newEvents = [EventModel]()
+//            for event in snapshot.children{
+//                print(event)
+//                let eventObject = EventModel(snapshot:event as! FIRDataSnapshot)
+//                newEvents.append(eventObject)
+//            }
+//            
+//            self.events = newEvents
+//            self.tableView.reloadData()
+//        })
+        
     }
 
     // MARK: - Table view data source

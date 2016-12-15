@@ -27,15 +27,20 @@ class EventViewController: UIViewController {
     var locationLogitude = Double()
     var locationLatidue = Double()
     var image:UIImage?
+
+    var currentUser:FIRUser!
+    var hostEmail:String!
+    
     
     var dbRef:FIRDatabaseReference!
     
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         restaurantNameLabel.text = restaurantName
         restaurantLocationLabel.text = restaurantLocation
-
-        dbRef = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/").child("events")
+        dbRef = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/").child("events").childByAutoId()
     }
 
     
@@ -49,14 +54,16 @@ class EventViewController: UIViewController {
             }
         }
         
-//        if segue.identifier == "loadEvent"{
-//            if let eventVC = segue.destination as? ShowEventTableViewController{
-//                
-//            }
-//        }
+
     }
     
     @IBAction func createEvent(_ sender: Any) {
+        
+        FIRAuth.auth()!.addStateDidChangeListener { auth, user in
+            guard let user = user else { return }
+            self.currentUser = user
+            self.hostEmail = user.email
+        }
         
         var eventTitleEmptyFlag = false
         var eventTimeEmptyFlag = false
@@ -83,8 +90,8 @@ class EventViewController: UIViewController {
         //if the text field are both filled, create event
         if(eventTimeEmptyFlag && eventTitleEmptyFlag){
             let eventRef = self.dbRef.child(eventTitle.lowercased())
-            
-            let storageRef = FIRStorage.storage().reference(forURL: "gs://foodbuddy-8e869.appspot.com").child("images/myImage2.png")
+            let uuid = NSUUID().uuidString
+            let storageRef = FIRStorage.storage().reference(forURL: "gs://foodbuddy-8e869.appspot.com").child("images/myImage\(uuid).png")
             
             if let uploadData = UIImagePNGRepresentation(image!){
                 storageRef.put(uploadData, metadata: nil, completion: {
@@ -98,7 +105,7 @@ class EventViewController: UIViewController {
                     if let imageDataUrl = metadata?.downloadURL()?.absoluteString{
                         //                   self.imageUrl = imageDataUrl
                         //                    print(self.imageUrl)
-                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl)
+                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl, hostUser:self.hostEmail)
                         
                         
                         eventRef.setValue(event.toAnyObject())
@@ -106,7 +113,7 @@ class EventViewController: UIViewController {
                         
                     }else{
                         let imageDataUrl = ""
-                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl)
+                        let event = EventModel(eventTitle: eventTitle, eventMessage: self.eventMessage, eventLocation: self.restaurantLocation, eventTime: eventTime, eventRestaurant: self.restaurantName, longitude:self.locationLogitude, latitude:self.locationLatidue, imageUrl:imageDataUrl, hostUser:self.hostEmail)
                         
                         
                         eventRef.setValue(event.toAnyObject())
@@ -116,10 +123,4 @@ class EventViewController: UIViewController {
             } 
         }
     }
-    
-    func uploadRestaurantImageToFireBase(){
-        
-        
-    }
-
 }
