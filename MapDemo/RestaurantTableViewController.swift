@@ -160,9 +160,14 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
         
     }
     
+    @IBAction func logout(_ sender: AnyObject) {
+                    try! FIRAuth.auth()!.signOut()
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier != "jumpToEventList"{
+        if segue.identifier == "jumptoeventviewcontrol"{
             let indexPath = self.tableView.indexPathForSelectedRow?.row
             let vc = segue.destination as! EventViewController
             vc.restaurantName = resModels[indexPath!].restaurantName
@@ -171,6 +176,5 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
             vc.locationLogitude = resModels[indexPath!].longitude
             vc.image = resModels[indexPath!].image
         }
-
     }
 }
