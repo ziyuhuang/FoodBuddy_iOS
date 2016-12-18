@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var emailField: UITextField!
     
-    @IBOutlet weak var usernamefield: UITextField!
+//    @IBOutlet weak var usernamefield: UITextField!
     @IBOutlet weak var passwordfield: UITextField!
     @IBOutlet weak var Logoutbutton: UIButton!
     override func viewDidLoad() {
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         }
         
         
-        if self.emailField.text == "" || self.passwordfield.text == "" || self.usernamefield.text == "" {
+        if self.emailField.text == "" || self.passwordfield.text == "" {
             let alertcontroller = UIAlertController(title: "Error", message: "Please type in Email and Password.", preferredStyle: .alert)
             
             let alertdefault = UIAlertAction(title: "Okay", style: .cancel, handler: nil)
@@ -50,8 +50,8 @@ class ViewController: UIViewController {
                     self.passwordfield.text = ""
                     let ref = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/")
                     let userref = ref.child("users").child(uid)
-                    let username = self.usernamefield.text
-                    let values = ["Email":email, "username":username]
+//                    let username = self.usernamefield.text
+                    let values = ["Email":email]
                     userref.updateChildValues(values, withCompletionBlock: {(error,ref) in
                         
                         if error != nil{

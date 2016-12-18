@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 class ShowEventTableViewController: UITableViewController {
 
+   
     var dbRef:FIRDatabaseReference!
     
     var events = [EventModel]()
@@ -53,6 +54,11 @@ class ShowEventTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+
+    @IBAction func joinEvent(_ sender: UIButton) {
+        
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -71,6 +77,7 @@ class ShowEventTableViewController: UITableViewController {
         let locationLabel = cell.viewWithTag(3) as! UILabel
         let timeLabel = cell.viewWithTag(4) as! UILabel
         let messageTextView = cell.viewWithTag(5) as! UITextView
+        let hostUrlLabel = cell.viewWithTag(6) as! UILabel
         messageTextView.isEditable = false
         
         if let imageUrl = events[indexPath.row].imageUrl{
@@ -84,6 +91,7 @@ class ShowEventTableViewController: UITableViewController {
         titleLabel.text = events[indexPath.row].eventTitle
         timeLabel.text =  "Time: " + events[indexPath.row].eventTime
         messageTextView.text = "Message from Host: \n" + events[indexPath.row].eventMessage
+        hostUrlLabel.text = "Host By: " + events[indexPath.row].hostUser
         return cell
     }
 }
