@@ -1,6 +1,6 @@
 # FinalProject-ziyuhuang & NelsonLiang
-1. Name:Ziyu Huang
-2. Email: huangziyu08@gmail.com
+1. Name:Ziyu Huang, Nelson Liang
+2. Email: huangziyu08@gmail.com, drive-shares-noreply@google.com
 3. Group member: Ziyu Huang, Nelson Liang
 4. Project Time: 3 weeks
 5. iOS device: iPhone 6, swift version: 3.0, iOS 10
