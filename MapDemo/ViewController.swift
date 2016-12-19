@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationItem.setHidesBackButton(true, animated: true)
+    }
+    
     @IBAction func createaccountaction(_ sender: AnyObject) {
         guard let email = emailField.text else{
             print("Not valid")
@@ -112,11 +116,6 @@ class ViewController: UIViewController {
             
             
         }
-        
-        
-        
-        
-        
     }
     
     @IBAction func logoutaction(_ sender: AnyObject) {

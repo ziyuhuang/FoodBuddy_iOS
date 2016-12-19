@@ -227,7 +227,6 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ei3-fD-B2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <barButtonItem title="Item" id="Ok2-xt-cMY"/>
             </objects>
             <point key="canvasLocation" x="-1134" y="-1593"/>
         </scene>
