@@ -44,6 +44,7 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
 
     
     override func viewDidLoad() {
+        navigationItem.title = "Tap to Host Event"
         super.viewDidLoad()
         
         self.navigationItem.setHidesBackButton(true, animated: true)

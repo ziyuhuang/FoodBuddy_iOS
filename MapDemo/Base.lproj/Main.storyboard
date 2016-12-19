@@ -72,7 +72,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jrn-0W-SNa">
-                                            <rect key="frame" x="34.5" y="6" width="78.5" height="78.5"/>
+                                            <rect key="frame" x="8" y="6" width="105" height="105"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="jrn-0W-SNa" secondAttribute="height" multiplier="1:1" id="2yD-QW-zXX"/>
                                             </constraints>
@@ -87,13 +87,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naj-N9-zmI">
-                                            <rect key="frame" x="121" y="42" width="246" height="16.5"/>
+                                            <rect key="frame" x="121" y="42" width="246" height="43"/>
                                             <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YZ-zp-xFP">
-                                            <rect key="frame" x="121" y="63.5" width="246" height="21"/>
+                                            <rect key="frame" x="121" y="90" width="246" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="A8l-PY-HPU"/>
                                             </constraints>
@@ -190,23 +190,6 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cax-hq-A4x">
-                                            <rect key="frame" x="292" y="145" width="75" height="50"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.85283464180000002" green="0.91736648580000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
-                                            <color key="tintColor" red="0.38063611580000001" green="0.59465364600000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <state key="normal" title="JOIN"/>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="10"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                            </userDefinedRuntimeAttributes>
-                                            <connections>
-                                                <action selector="joinEvent:" destination="CsU-eW-H5d" eventType="touchUpInside" id="7vO-UI-7h6"/>
-                                            </connections>
-                                        </button>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6qq-mF-oKp">
                                             <rect key="frame" x="8" y="123" width="212" height="72"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
