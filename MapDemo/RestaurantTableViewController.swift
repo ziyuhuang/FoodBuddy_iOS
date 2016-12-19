@@ -170,6 +170,10 @@ class RestaurantTableViewController: UITableViewController, UISearchBarDelegate{
             vc.locationLatidue = resModels[indexPath!].latitude
             vc.locationLogitude = resModels[indexPath!].longitude
             vc.image = resModels[indexPath!].image
+            
+            let backItem = UIBarButtonItem()
+            backItem.title = "Back"
+            navigationItem.backBarButtonItem = backItem
         }
 
     }

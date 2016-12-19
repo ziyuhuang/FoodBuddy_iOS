@@ -23,6 +23,9 @@ class EventModel {
     let imageUrl:String!
     let hostUser:String!
     
+    //add event participants
+//    var members = [String]()
+    
     
 
     
@@ -39,7 +42,7 @@ class EventModel {
         self.hostUser = hostUser
         eventRef = nil
         self.key = key
-        
+//        self.members = members
 
     }
     
@@ -65,6 +68,7 @@ class EventModel {
                 "longitude":longitude,
                 "imageUrl":imageUrl,
                 "hostUser":hostUser
+//                "members":members
                 ]
     }
     
@@ -128,6 +132,13 @@ class EventModel {
         }else{
             hostUser = ""
         }
+        
+//        if let membersTemp = snapshotValue?["members"] as? [String]{
+//            members = membersTemp
+//        }
+//        else{
+//            members = [String]()
+//        }
     }
     
 }

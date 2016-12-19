@@ -17,6 +17,7 @@
 		4431EE6A1DF34B9B00558D1B /* MapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE691DF34B9B00558D1B /* MapDemoUITests.swift */; };
 		4431EE7A1DF358E000558D1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4431EE791DF358E000558D1B /* Podfile */; };
 		4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431EE7B1DF388C600558D1B /* ZomatoClient.swift */; };
+		444A19141E067CB400547E8A /* MyEventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A19131E067CB400547E8A /* MyEventListTableViewController.swift */; };
 		445070651E021EB500FD275C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445070641E021EB500FD275C /* User.swift */; };
 		4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456F1E71DF6687C001EC08E /* EventModel.swift */; };
 		446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */; };
@@ -62,6 +63,7 @@
 		4431EE6B1DF34B9B00558D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4431EE791DF358E000558D1B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4431EE7B1DF388C600558D1B /* ZomatoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomatoClient.swift; sourceTree = "<group>"; };
+		444A19131E067CB400547E8A /* MyEventListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventListTableViewController.swift; sourceTree = "<group>"; };
 		445070641E021EB500FD275C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4456F1E71DF6687C001EC08E /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		446F3DAB1DF6B117004893B4 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		446F3DBD1DF89415004893B4 /* Event */ = {
 			isa = PBXGroup;
 			children = (
+				444A19131E067CB400547E8A /* MyEventListTableViewController.swift */,
 				4456F1E71DF6687C001EC08E /* EventModel.swift */,
 				446F3DB31DF7DAC8004893B4 /* EventViewController.swift */,
 			);
@@ -399,6 +402,7 @@
 				446F3DB41DF7DAC8004893B4 /* EventViewController.swift in Sources */,
 				446F3DBA1DF7DCA9004893B4 /* welcomeViewController.swift in Sources */,
 				4431EE7C1DF388C600558D1B /* ZomatoClient.swift in Sources */,
+				444A19141E067CB400547E8A /* MyEventListTableViewController.swift in Sources */,
 				4456F1E81DF6687C001EC08E /* EventModel.swift in Sources */,
 				446F3DAC1DF6B117004893B4 /* RestaurantModel.swift in Sources */,
 				4431EE4A1DF34B9B00558D1B /* AppDelegate.swift in Sources */,

@@ -13,12 +13,42 @@ class ShowEventTableViewController: UITableViewController {
    
     var dbRef:FIRDatabaseReference!
     
+    var userRef:FIRDatabaseReference!
+    
+    //test purpose
+    var ref_:FIRDatabaseReference!
+    
     var events = [EventModel]()
+    
+    var myEvents = [EventModel]()
+    
+    var snapshopkeys = [String]()
+    
+    //temp solution, store the "only one" event
+    var eventIDList = [String]()
+    
+    //test current auto id key
+    var curEventId:String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         dbRef = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/").child("events")
+        
+        ref_ = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/").child("events")
+        
+
+        navigationItem.title = "Tap to Join"
         startObeserveDB()
+//        printAUserEvent()
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        myEvents = [EventModel]()
+    }
+    
+    func getUserUid(){
+        
         
     }
 
@@ -27,9 +57,10 @@ class ShowEventTableViewController: UITableViewController {
         self.dbRef.observe(FIRDataEventType.childAdded, with: {
             (snapshot:FIRDataSnapshot) in
             
-            print(snapshot.childrenCount)
+            self.snapshopkeys.append(snapshot.key)
+            
             for event in snapshot.children{
-                print(event)
+//                print(event)
                 let eventObject = EventModel(snapshot:event as! FIRDataSnapshot)
                 newEvents.append(eventObject)
             }
@@ -37,26 +68,35 @@ class ShowEventTableViewController: UITableViewController {
             self.events = newEvents
             self.tableView.reloadData()
         })
-//        dbRef.observe(.childAdded, with: {(snapshot:FIRDataSnapshot) in
-//
-//            var newEvents = [EventModel]()
-//            for event in snapshot.children{
-//                print(event)
-//                let eventObject = EventModel(snapshot:event as! FIRDataSnapshot)
-//                newEvents.append(eventObject)
-//            }
-//            
-//            self.events = newEvents
-//            self.tableView.reloadData()
-//        })
-        
     }
 
     // MARK: - Table view data source
 
-
-    @IBAction func joinEvent(_ sender: UIButton) {
+//
+//    @IBAction func joinEvent(_ sender: UIButton) {
+//        
+//    }
+//    
+    
+    func printAUserEvent(child:String!){
         
+        let finalRef = ref_.child(child)
+        var temp = [EventModel]()
+        finalRef.observe(.value, with: {
+            snapshot in
+            
+            
+            for event in snapshot.children{
+                let eventObject = EventModel(snapshot:event as! FIRDataSnapshot)
+                temp.append(eventObject)
+                print(eventObject)
+            }
+            
+            self.myEvents = temp
+            self.performSegue(withIdentifier: "myEventList", sender: nil)
+        })
+        
+        print(222222222)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -93,5 +133,58 @@ class ShowEventTableViewController: UITableViewController {
         messageTextView.text = "Message from Host: \n" + events[indexPath.row].eventMessage
         hostUrlLabel.text = "Host By: " + events[indexPath.row].hostUser
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let eventOrderNumber = indexPath.row
+        print(snapshopkeys[eventOrderNumber])
+        
+        
+        //ask user if they wants to join the event
+        let alertcontroller = UIAlertController(title: "Event", message: "Are you sure you want to join the event?", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+     
+        
+        let okAction = UIAlertAction(title: "Okay", style: .default, handler: { alertAction in
+            
+            
+            FIRAuth.auth()!.addStateDidChangeListener { auth, user in
+                guard let user = user else { return }
+                
+//                print(user.uid)
+//                print(self.snapshopkeys[eventOrderNumber]+"==================here")
+                
+                self.eventIDList.append(self.snapshopkeys[eventOrderNumber])
+                
+                self.curEventId = self.snapshopkeys[eventOrderNumber]
+                
+                let value = [self.snapshopkeys[eventOrderNumber]:true]
+                
+                self.userRef = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/").child("users").child(user.uid).child("events")
+                
+                self.userRef.setValue(value)
+                
+                self.printAUserEvent(child: self.curEventId)
+//                print(111111111)
+                
+                
+            }
+            
+            
+        })
+    
+        alertcontroller.addAction(okAction)
+        alertcontroller.addAction(cancelAction)
+        
+        self.present(alertcontroller, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "myEventList"{
+            let myEventListVC = segue.destination as! MyEventListTableViewController
+//            myEventListVC.userEventList = eventIDList
+            myEventListVC.myEventList = self.myEvents
+        }
     }
 }

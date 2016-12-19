@@ -50,7 +50,6 @@ class ViewController: UIViewController {
                     self.passwordfield.text = ""
                     let ref = FIRDatabase.database().reference(fromURL: "https://foodbuddy-8e869.firebaseio.com/")
                     let userref = ref.child("users").child(uid)
-//                    let username = self.usernamefield.text
                     let values = ["Email":email]
                     userref.updateChildValues(values, withCompletionBlock: {(error,ref) in
                         
